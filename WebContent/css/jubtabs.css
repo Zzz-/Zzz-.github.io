@@ -1,0 +1,29 @@
+#qtab.ui-tabs {
+	padding: 0;
+	border-width: 0;
+}
+
+#qtab .ui-widget-header {
+	border: 0;
+}
+
+#qtab .ui-tabs-nav {
+	border-width: 0;
+	padding: 0;
+}
+
+#qtab .ui-tabs-panel {
+	display: run-in;
+	border-width: 2px;
+	background: #f0f0ff;
+	border-width: 2px;
+}
+
+#qtab .ui-tabs-nav li {
+	margin: 0;
+}
+
+#qtab .ui-tabs-nav li.ui-tabs-selected {
+	border-width: 5px;
+	margin-bottom: -5px;
+}
