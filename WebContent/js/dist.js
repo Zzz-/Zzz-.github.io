@@ -40,7 +40,7 @@ function distribute(mainQuest, subQuest, stamina, rest_exp, rankup, mode){
 	// EXPの低い順に並び替えして結合
 	var quests = sortByEXP(mainQuest);
 	if(subQuest != null && subQuest != undefined && subQuest.length != 0)
-		quests.concat(sortByEXP(subQuest));
+		quests = quests.concat(sortByEXP(subQuest));
 	// クエストのスコアについて 主目的：必要スタミナと同等 副目的：1
 	var q_score = new Array(quests.length);
 	for(var i=0; i<q_score.length; i++){

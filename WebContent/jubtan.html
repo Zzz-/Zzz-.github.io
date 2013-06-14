@@ -58,11 +58,8 @@
 		//		$("#message").show('fast');
 	}
 	function run() {
+		saveCookie();
 		calc();
-	}
-
-	function saveCookie() {
-		$.cookie('stamina', document.getElementById("stamina").value);
 	}
 
 	$(document).ready(function() {
@@ -80,11 +77,6 @@
 
 		$('#qtab .ui-tabs-nav').removeClass('ui-corner-all');
 
-		document.getElementById('stamina').value = $.cookie('stamina');
-		//		alertMessage($.cookie('stamina'));
-		if (document.getElementById('stamina').value == "")
-			document.getElementById('stamina').value = 0;
-
 		init();
 	});
 </script>
@@ -100,8 +92,13 @@
 		<button onclick="ReadmeToggle();">Readmeの表示ボタン</button>
 		<br> <label id="ReadmeText"
 			, style="display: none; background: #d0d0ff; float: left;">
-			クエストの最適な消化方法を提案するプログラムです。<br> 使い方：まずはステータスに情報を入力します。<br>
+			クエストの最適な消化方法を提案するプログラムです。<br> 
+			【使い方】<br>
+			1.まずはステータスに情報を入力します。<br>
 			石ジャブしてチョキ周回したりする場合は"石ジャブ"にチェックを入れてください。<br>
+			2.左下のリストから「主に回したいクエスト(主目的)」「端数で回したいクエスト(副目的)」を追加していきます。<br>
+			3.計算ボタンを押すと精一杯考えた解がでてきます。<br>
+			※入力内容の記録にCookieを使っています
 		</label>
 	</div>
 	<br>
@@ -130,7 +127,7 @@
 									<td align="right">残りEXP</td>
 									<td><input type="number" class="RestExp" name="restexp"
 										id="restexp" style="width: 65px" max="999999" min="1"
-										value="1000"></td>
+										value="10000"></td>
 								</tr>
 								<tr>
 									<td align="right">石ジャブ</td>
@@ -149,7 +146,7 @@
 
 					<!-- メインのクエスト -->
 					<td bgcolor="f0fff0"><b>主目的クエスト</b><br> <select size="5"
-						id="mainTarget" name="mainTarget" style="width: 180px" multiple>
+						id="mainTarget" name="mainTarget" style="width: 180px">
 					</select>
 						<center>
 							<button type="button" name="removeMainQuest" id="removeMainQuest"
@@ -166,7 +163,7 @@
 								<ul>
 									<li><a href="#normalq"><span>ノーマル</span></a></li>
 									<li><a href="#specialq"><span>スペシャル</span></a></li>
-									<li><a href="#techq"><span>テクニック</span></a></li>
+									<li><a href="#techq"><span>テクニカル</span></a></li>
 								</ul>
 							</font>
 
@@ -207,7 +204,7 @@
 
 					<!-- サブのクエスト -->
 					<td bgcolor="fffff0"><b>副目的クエスト</b><br> <select size="15"
-						id="subTarget" name="subTarget" style="width: 180px" multiple>
+						id="subTarget" name="subTarget" style="width: 180px">
 					</select>
 						<center>
 							<button type="button" name="removeSubQuest" id="removeSubQuest"
@@ -216,9 +213,12 @@
 						</center></td>
 				</tr>
 				<tr>
-					<td colspan="2" bgcolor="000000"><center>
+					<td colspan="2" bgcolor="000000">
+					<center>
+						<img src="img/misuritto_alpha.png" alt="" width=32 height=32>
 							<button type="button" name="calc" id="calc" value="calc"
 								onclick="run();">計算</button>
+						<img src="img/misuritto_alpha.png" alt="" width=32 height=32>
 						</center>
 					<td>
 				</tr>

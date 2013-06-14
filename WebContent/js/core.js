@@ -1,8 +1,65 @@
 var mainTarget;
 var subTarget;
 
+function saveCookie() {
+	var box1 = document.getElementById("mainTarget").options;
+	var box2 = document.getElementById("subTarget").options;
+	$.cookie('stamina', document.getElementById("stamina").value);
+	$.cookie('maxstamina', document.getElementById("maxstamina").value);
+	$.cookie('restexp', document.getElementById("restexp").value);
+	var maintcookie = "";
+	if(box1.length != 0){
+		maintcookie = box1[0].value;
+		for(var i=1; i<box1.length; i++)
+			maintcookie += "," + box1[i].value;
+	}
+	$.cookie('maint', maintcookie);
+	var subtcookie = "";
+	if(box2.length != 0){
+		subtcookie = box2[0].value;
+		for(var i=1; i<box2.length; i++)
+			subtcookie += "," + box2[i].value;
+	}
+	$.cookie('subt', subtcookie);
+}
+
+function loadCookie() {
+	var box1 = document.getElementById("mainTarget").options;
+	var optcookie1 = $.cookie('maint');
+	var optionID1 = [];
+	var box2 = document.getElementById("subTarget").options;
+	var optcookie2 = $.cookie('subt');
+	var optionID2 = [];
+	document.getElementById('stamina').value = $.cookie('stamina');
+	if (document.getElementById('stamina').value == "")
+		document.getElementById('stamina').value = 0;
+	document.getElementById('maxstamina').value = $.cookie('maxstamina');
+	if (document.getElementById('maxstamina').value == "")
+		document.getElementById('maxstamina').value = 20;
+	document.getElementById('restexp').value = $.cookie('restexp');
+	if (document.getElementById('restexp').value == "")
+		document.getElementById('restexp').value = 10000;
+	
+	if(optcookie1 != undefined && optcookie1 != null)
+		optionID1 = optcookie1.split(",");
+	if(optcookie2 != undefined && optcookie2 != null)
+		optionID2 = optcookie2.split(",");
+	
+	for(var i=0; i<optionID1.length; i++){
+		var q = getQuest(optionID1[i]);
+		if(q != undefined && q != null)
+			box1[box1.length] = q;
+	}
+	for(var i=0; i<optionID2.length; i++){
+		var q = getQuest(optionID2[i]);
+		if(q != undefined && q != null)
+			box2[box2.length] = q;
+	}
+}
+
 function init(){
 	initList();
+	loadCookie();
 }
 
 function updateTarget(){
@@ -48,7 +105,6 @@ function calc(){
 	if(isManyStone) stone = -1;
 	
 	ResultHide();
-	
 	var bestPlan = distribute(mainTarget, subTarget, stamina, restexp, true, mode);
 	var rankuped = false;
 	if(bestPlan.rankup()){
