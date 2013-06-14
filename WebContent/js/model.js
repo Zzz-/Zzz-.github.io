@@ -26,6 +26,11 @@ Quest.prototype = {
 	}
 };
 
+var Area = function(name, questlist){
+	this.name = name;
+	this.quest = questlist;
+};
+
 /* クエストの亜種、石使用 */
 var UseStone = function() {};
 UseStone.prototype = new Quest("", 0, 0);

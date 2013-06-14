@@ -55,7 +55,7 @@
 	function alertMessage(str) {
 		//		$("#message").hide('fast');
 		document.getElementById("message").innerHTML = str;
-		//		$("#message").show('fast');
+		$("#message").show('fast');
 	}
 	function run() {
 		saveCookie();
@@ -99,18 +99,19 @@
 			2.左下のリストから「主に回したいクエスト(主目的)」「端数で回したいクエスト(副目的)」を追加していきます。<br>
 			3.計算ボタンを押すと精一杯考えた解がでてきます。<br>
 			※入力内容の記録にCookieを使っています<br>
-			<small>ver 0.11</small>
+			<small>ver 0.20</small>
 		</label>
 	</div>
 	<br>
 
 	<div class="Settings" style="clear: left;">
 		<form method="post" name="formjb">
-			<table>
+			<table border=0>
 				<tr>
 					<td bgcolor="fff0f0">
 						<!-- ステータス情報 -->
 						<div class="Status">
+						<center>
 							<table>
 								<tr>
 									<th rowspan="5">ステータス</th>
@@ -142,6 +143,7 @@
 										style="width: 65px" max="100" min="0" value="0"></td>
 								</tr>
 							</table>
+							</center>
 						</div>
 					</td>
 
@@ -170,7 +172,11 @@
 
 							<div id="normalq">
 								<p>
-									<font size="2"> <select name="quest1" id="quest1"
+									<font size="2"> <select name="quest11" id="quest11"
+										size="10" style="width: 120px" onChange="selectArea(0)">
+									</select>
+									</font>
+									<font size="2"> <select name="quest12" id="quest12"
 										size="10" style="width: 180px">
 									</select>
 									</font>
@@ -178,7 +184,11 @@
 							</div>
 							<div id="specialq">
 								<p>
-									<font size="2"> <select name="quest2" id="quest2"
+									<font size="2"> <select name="quest21" id="quest21"
+										size="10" style="width: 120px" onChange="selectArea(1)">
+									</select>
+									</font>
+									<font size="2"> <select name="quest22" id="quest22"
 										size="10" style="width: 180px">
 									</select>
 									</font>
@@ -186,7 +196,11 @@
 							</div>
 							<div id="techq">
 								<p>
-									<font size="2"> <select name="quest3" id="quest3"
+									<font size="2"> <select name="quest31" id="quest31"
+										size="10" style="width: 120px" onChange="selectArea(2)">
+									</select>
+									</font>
+									<font size="2"> <select name="quest32" id="quest32"
 										size="10" style="width: 180px">
 									</select>
 									</font>
@@ -214,6 +228,11 @@
 						</center></td>
 				</tr>
 				<tr>
+				<td colspan="2" bgcolor="ffff80">
+					<div class="Message" id="message"></div>
+				</td>
+				</tr>
+				<tr>
 					<td colspan="2" bgcolor="000000">
 					<center>
 						<img src="img/misuritto_alpha.png" alt="" width=32 height=32>
@@ -227,8 +246,6 @@
 			</table>
 		</form>
 	</div>
-
-	<div class="Message" id="message"></div>
 
 	<div class="Result" id="result"
 		style="background: #d0d0d0; float: left;"></div>

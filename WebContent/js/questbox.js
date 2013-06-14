@@ -1,3 +1,37 @@
+function selectArea(num){
+	var box1;
+	var box2;
+	switch(num){
+	case 0:
+		box1 = document.getElementById("quest11");
+		box2 = document.getElementById("quest12").options;
+		break;
+	case 1:
+		box1 = document.getElementById("quest21");
+		box2 = document.getElementById("quest22").options;
+		break;
+	case 2:
+		box1 = document.getElementById("quest31");
+		box2 = document.getElementById("quest32").options;
+		break;
+	default:
+		return;
+	}
+	var idvalue = box1.options[box1.selectedIndex].value;
+	var area = getArea(idvalue);
+	if(area != null || area != undefined){
+		box2.length = 0;
+		for(var i=0; i<area.quest.length; i++){
+			var newOption = new Option();
+			newOption.text = area.quest[i].toStringOption();
+			newOption.value = idvalue + "-" + i;
+			box2[box2.length] = newOption;
+		}
+	}
+	
+}
+
+
 function addQuest(num) {
 	alertMessage("");
 	var fromBox;
@@ -16,13 +50,13 @@ function addQuest(num) {
 	}
 	switch (tabindex) {
 	case 0:
-		fromBox = document.getElementById("quest1");
+		fromBox = document.getElementById("quest12");
 		break;
 	case 1:
-		fromBox = document.getElementById("quest2");
+		fromBox = document.getElementById("quest22");
 		break;
 	case 2:
-		fromBox = document.getElementById("quest3");
+		fromBox = document.getElementById("quest32");
 		break;
 	default:
 		return;
