@@ -107,16 +107,3 @@ Plan.prototype = {
 			ResultShow();
 		}
 };
-
-function test(){
-	var plan1 = new Plan(100, 100, 10000);
-	plan1.add(new Quest("ヒュペリオ", 20, 5000));
-	var plan2 = new Plan(60, 120, 30000);
-	plan2.add(new Quest("イーリス", 16, 3700, 4000));
-	plan2.cat(plan1);
-	plan2.useStone();
-	plan2.add(new Quest("チョキ", 50, 2000));
-	plan2.add(new Quest("チョキ", 50, 2000));
-	plan2.add(new Quest("チョキ", 50, 2000));
-	plan2.output();
-}

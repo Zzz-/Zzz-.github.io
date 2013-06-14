@@ -47,13 +47,21 @@ function loadCookie() {
 	
 	for(var i=0; i<optionID1.length; i++){
 		var q = getQuest(optionID1[i]);
-		if(q != undefined && q != null)
+		if(q != undefined && q != null){
+			var newOption = new Option();
+			newOption.text = q.toStringOption();
+			newOption.value = optionID1[i];
 			box1[box1.length] = q;
+		}
 	}
 	for(var i=0; i<optionID2.length; i++){
 		var q = getQuest(optionID2[i]);
-		if(q != undefined && q != null)
+		if(q != undefined && q != null){
+			var newOption = new Option();
+			newOption.text = q.toStringOption();
+			newOption.value = optionID2[i];
 			box2[box2.length] = q;
+		}
 	}
 }
 
