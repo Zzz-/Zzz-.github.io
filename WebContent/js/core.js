@@ -51,7 +51,7 @@ function loadCookie() {
 			var newOption = new Option();
 			newOption.text = q.toStringOption();
 			newOption.value = optionID1[i];
-			box1[box1.length] = q;
+			box1[box1.length] = newOption;
 		}
 	}
 	for(var i=0; i<optionID2.length; i++){
@@ -60,7 +60,7 @@ function loadCookie() {
 			var newOption = new Option();
 			newOption.text = q.toStringOption();
 			newOption.value = optionID2[i];
-			box2[box2.length] = q;
+			box2[box2.length] = newOption;
 		}
 	}
 }
