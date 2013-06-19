@@ -145,6 +145,7 @@ function calc(){
 		var firstPlan = distribute(mainTarget, subTarget, stamina, rest, true, mode);
 		var testPlan = new Plan(stamina, maxstamina, restexp);
 		testPlan.cat(firstPlan);
+		var firststamina = firstPlan.rest_stamina;
 		for(var i=0; i<use; i++){
 			testPlan.useStone();
 			testPlan.cat(stonePlan);
@@ -162,7 +163,7 @@ function calc(){
 				if(!rankuped){
 					rankuped = true;
 					bestPlan = testPlan;
-				} else if(isManyStone && bestPlan.stamina > testPlan.stamina)
+				} else if(isManyStone && bestPlan.stamina > testPlan.stamina && firststamina < bestPlan.getLastQuest().stamina)
 					bestPlan = testPlan;
 				else if(!isManyStone && bestPlan.rest_stamina > testPlan.rest_stamina)
 					bestPlan = testPlan;
