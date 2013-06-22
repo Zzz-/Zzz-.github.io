@@ -1,3 +1,11 @@
+.titlebar0 {
+	width:auto;
+	padding:3px 0 3px 10px;
+	color:#000;
+	background: #ff8;
+	font-weight: bold;
+}
+
 .titlebar1 {
 	width:auto;
 	padding:3px 0 3px 10px;
@@ -5,10 +13,10 @@
 	background: #000;
 	font-weight: bold;
 	text-shadow: 0px 0px 1px #ffffff,
+	  0px 0px 4px #ffd700,
+	  0px 0px 7px #ffd700,
 	  0px 0px 10px #ffd700,
-	  0px 0px 20px #ffd700,
-	  0px 0px 30px #ffd700,
-	  0px 0px 40px #ffd700;
+	  0px 0px 13px #ffd700;
 }
 
 .titlebar2 {
@@ -21,3 +29,22 @@
 	  2px  2px 0px #66ff33,
 	  3px  3px 0px #3399ff;
 }
+
+.indexes {
+	width:auto;
+	padding:3px 0 3px 10px;
+	color: #7e007e;
+	background: #afa;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.factor {
+	font-size: 1em;
+}
+
+.explain {
+	color: #8f8f8f;
+	font-size: 0.8em;
+}
+
