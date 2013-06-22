@@ -2,9 +2,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>【パズドラ】クエスト最適配置提案プログラム ジャブたん！</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1">
 
-<noscript>このプログラムはJavaScriptを使用しています。JavaScriptをONにしてください。</noscript>
+<title>【パズドラ】スタミナ消化提案 ジャブたん！</title>
+
+<noscript>
+JavaScriptがOFFになっています。<br>
+このプログラムはJavaScriptを使用しています。JavaScriptをONにしてご利用ください。<br>
+</noscript>
+
+<link href="css/common.css" rel="stylesheet" type="text/css" />
 
 <!-- jQuery -->
 <script type="text/javascript" src="js/jquery.js"></script>
@@ -82,28 +89,33 @@
 </head>
 
 <body bgcolor="#f8f8f8">
-	<a name="title">【パズドラ】クエスト最適配置提案プログラム ジャブたん！</a> &nbsp;
+	<a name="title" class="titlebar0">スタミナ消化提案 ジャブたん！</a> &nbsp;
 	<br>
 	<br>
 
 	<div class="Readme">
-		<button onclick="ReadmeToggle();">Readmeの表示ボタン</button>
+		<button onclick="ReadmeToggle();">説明ボタン</button>
 		<br> <label id="ReadmeText"
 		 style="display: none; background: #d0d0ff; float: left;">
 			クエストの最適な消化方法を提案するプログラムです。<br> 
 			【使い方】<br>
-			1.まずはステータスに情報を入力します。<br>
-			石ジャブしてチョキ周回したりする場合は"石ジャブ"にチェックを入れてください。<br>
-			2.左下のリストから「主に回したいクエスト(主目的)」「端数で回したいクエスト(副目的)」を追加していきます。<br>
-			3.計算ボタンを押すと精一杯考えた解がでてきます。<br>
+			&nbsp;1.まずはステータスに情報を入力します。<br>
+			  &emsp;石ジャブしてチョキ周回したりする場合は"石ジャブ"にチェックを入れてください。<br>
+			&nbsp;2.左下のリストから<br>
+			  &emsp;「主に回したいクエスト(主目的)」<br>
+			  &emsp;「端数で回したいクエスト(副目的)」<br>
+			  &emsp;を追加していきます。<br>
+			&nbsp;3.計算ボタンを押すと精一杯考えた解がでてきます。<br>
 			<br>
 			【注意と補足事項】<br>
-			・石ジャブにチェックが入ってると、石を使ったときに副目的を無視します。<br>
-			・結果はあくまで"参考値"です。乱数で変わったりするので臨機応変に。<br>
-			・入力内容の保存にCookieを使っています。<br>
-			・あまりスタミナを大きくしすぎたりクエストが多いと計算が遅くなる・・・かもしれません。<br>
+			&nbsp;・石ジャブにチェックが入ってると、石を使ったときに副目的を無視します。<br>
+			&nbsp;・結果はあくまで"参考値"です。乱数で変わったりするので臨機応変に。<br>
+			&nbsp;・入力内容の保存にCookieを使っています。<br>
+			&nbsp;・あまりスタミナを大きくしすぎたりクエストが多いと<br>
+			&emsp;計算が遅くなる・・・かもしれません。<br>
+			&nbsp;・横幅が640pxほど無いとレイアウトが崩れますが機能は問題無いです。<br>
 			<br>
-			<small>ver 1.01</small>
+			<small>ver 1.02</small>
 		</label>
 	</div>
 	<br>

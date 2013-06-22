@@ -4,11 +4,26 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Zzz-.github.io : my applications" />
+    <meta name="description" content="solaireofzzz.github.io : my applications" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    
+	<link href="WebContent/css/common.css" rel="stylesheet" type="text/css" />
 
-    <title>Zzz-.github.io</title>
+	<!-- jQuery -->
+	<script type="text/javascript" src="WebContent/js/jquery.js"></script>
+
+    <title>気まぐれで作ったツール群</title>
+    
+    <!-- program -->
+    <script type="text/javascript">
+    function TextToggle(id) {
+      $('#' + id).slideToggle('normal');
+    }
+
+    $(document).ready(function() {
+    });
+    </script>
   </head>
 
   <body>
@@ -16,10 +31,10 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Zzz-">View on GitHub</a>
+          <a id="forkme_banner" href="https://github.com/solaireofzzz">View on GitHub</a>
 
-          <h1 id="project_title">Zzz-.github.io</h1>
-          <h2 id="project_tagline">my applications</h2>
+          <h1 id="project_title">solaireofzzz.github.io</h1>
+          <h2 id="project_tagline">ごった煮状態。</h2>
 
         </header>
     </div>
@@ -27,16 +42,47 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p>Zzz-.github.io</p>
-
+        <p>solaireofzzz.github.io</p>
+<br><br>
+<!--
 <hr><h1>
 <a name="" class="anchor" href="#"><span class="octicon octicon-link"></span></a>これはどこ？</h1>
+-->
 
-<p>気まぐれで作ったツールの裏側。</p>
+<p>気まぐれで作ったツール達。</p>
 
-<p><a href="http://zzz-.github.io/WebContent/jubtan.html">ジャブたん！</a></p>
+	<a class="indexes" href="#" onclick="TextToggle('puzdora');">パズドラ関連</a> <br>
+	
+	<label id="puzdora" style="display: none;">
+		<p class="factor">
+		&nbsp;
+		<a href="http://solaireofzzz.github.io/WebContent/jubtan.html">ジャブたん！</a>
+		</p>
+		<p class="explain">&emsp;
+		パズドラの「余りそうなスタミナをできるだけおいしく消化するにはどうすればいいのか」を参考値程度に考えてくれるプログラム。
+		</p><br>
+	</label>
+	<br>
+	<br>
+	
+	<a class="indexes" href="#" onclick="TextToggle('tohofes');">玉神楽関連</a> <br>
+	
+	<label id="tohofes" style="display: none;">
+		<p class="factor">
+		&nbsp;
+		<a href="https://github.com/solaireofzzz/Kagura-Tool/raw/master/%E7%8E%89%E7%A5%9E%E6%A5%BD%E7%A8%AE%E6%97%8F%E8%A1%A8.ods">
+		お手製種族表＋α</a>
+		</p>
+		<p class="explain">&emsp;
+		種族値や耐久指標、攻撃属性から髪の色までさまざまなデータを詰め込んでみたodsファイル。<br>&emsp;
+		BP計算ツールや簡易ダメージ計算ツール、速度乱数込みの速度判定ツール付き。
+		</p><br>
+	</label>
+
+
       </section>
     </div>
+
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
