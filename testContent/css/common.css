@@ -1,0 +1,23 @@
+.titlebar1 {
+	width:auto;
+	padding:3px 0 3px 10px;
+	color:#fff;
+	background: #000;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #ffffff,
+	  0px 0px 10px #ffd700,
+	  0px 0px 20px #ffd700,
+	  0px 0px 30px #ffd700,
+	  0px 0px 40px #ffd700;
+}
+
+.titlebar2 {
+	width:auto;
+	padding:3px 0 3px 10px;
+	color: #ffffcc;
+	background: #000;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #ff3333,
+	  2px  2px 0px #66ff33,
+	  3px  3px 0px #3399ff;
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+
+<title>【パズドラ】クエスト最適配置提案プログラム ジャブたん！</title>
+
+<noscript>このプログラムはJavaScriptを使用しています。JavaScriptをONにしてください。</noscript>
+
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+
+<!-- ui tabs.js -->
+<script type="text/javascript" src="ui/jquery-ui.js"></script>
+<link href="themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+<!-- my js -->
+<script type="text/javascript" src="js/model.js"></script>
+<script type="text/javascript" src="js/questbox.js"></script>
+<script type="text/javascript" src="js/questlist.js"></script>
+<script type="text/javascript" src="js/dist.js"></script>
+<script type="text/javascript" src="js/core.js"></script>
+
+<!-- overwrite tabs css -->
+<link href="css/jubtabs.css" rel="stylesheet" type="text/css" />
+
+<!-- program -->
+<script type="text/javascript">
+	var tabindex = 0;
+
+	function StoneShow() {
+		$("#stoneText").show('normal');
+		$("#stoneNum").show('normal');
+	}
+	function StoneHide() {
+		$("#stoneText").hide('normal');
+		$("#stoneNum").hide('normal');
+	}
+	function ResultHide() {
+		$("#result").hide('normal');
+	}
+	function ResultShow() {
+		$("#result").show('normal');
+	}
+	function ReadmeToggle() {
+		$("#ReadmeText").slideToggle('normal');
+	}
+	function JabuCheck(bool) {
+		if (bool)
+			StoneHide();
+		else
+			StoneShow();
+	}
+	function alertMessage(str) {
+		//		$("#message").hide('fast');
+		document.getElementById("message").innerHTML = str;
+		$("#message").show('fast');
+	}
+	function run() {
+		saveCookie();
+		calc();
+	}
+
+	$(document).ready(function() {
+		$('#qtab').tabs({
+			hide : {
+				duration : 'fast'
+			},
+			show : {
+				duration : 'fast'
+			},
+			beforeActivate : function(event, ui) {
+				tabindex = ui.newTab.index();
+			}
+		});
+
+		$('#qtab .ui-tabs-nav').removeClass('ui-corner-all');
+
+		init();
+	});
+</script>
+</head>
+
+<body bgcolor="#f8f8f8">
+	<a name="title" class="titlebar1">【パズドラ】クエスト最適配置提案プログラム ジャブたん！</a> &nbsp;
+	<br>
+	<br>
+
+	<div class="Readme">
+		<button onclick="ReadmeToggle();">Readmeの表示ボタン</button>
+		<br> <label id="ReadmeText"
+		 style="display: none; background: #d0d0ff; float: left;">
+			クエストの最適な消化方法を提案するプログラムです。<br> 
+			【使い方】<br>
+			&nbsp;1.まずはステータスに情報を入力します。<br>
+			  &emsp;石ジャブしてチョキ周回したりする場合は"石ジャブ"にチェックを入れてください。<br>
+			&nbsp;2.左下のリストから<br>
+			  &emsp;「主に回したいクエスト(主目的)」<br>
+			  &emsp;「端数で回したいクエスト(副目的)」<br>
+			  &emsp;を追加していきます。<br>
+			&nbsp;3.計算ボタンを押すと精一杯考えた解がでてきます。<br>
+			<br>
+			【注意と補足事項】<br>
+			&nbsp;・石ジャブにチェックが入ってると、石を使ったときに副目的を無視します。<br>
+			&nbsp;・結果はあくまで"参考値"です。乱数で変わったりするので臨機応変に。<br>
+			&nbsp;・入力内容の保存にCookieを使っています。<br>
+			&nbsp;・あまりスタミナを大きくしすぎたりクエストが多いと<br>
+			&emsp;計算が遅くなる・・・かもしれません。<br>
+			<br>
+			<small>ver 1.02</small>
+		</label>
+	</div>
+	<br>
+
+	<div class="Settings" style="clear: left;">
+		<form method="post" name="formjb">
+			<table border=0>
+				<tr>
+					<td bgcolor="fff0f0">
+						<!-- ステータス情報 -->
+						<div class="Status">
+						<center>
+							<table>
+								<tr>
+									<th rowspan="5">ステータス</th>
+									<td align="right">残りスタミナ</td>
+									<td><input type="number" class="Stamina" name="stamina"
+										id="stamina" style="width: 65px" max="999" min="0" value="0"></td>
+								</tr>
+								<tr>
+									<td align="right">最大スタミナ</td>
+									<td><input type="number" class="MaxStamina"
+										name="maxstamina" id="maxstamina" style="width: 65px"
+										max="999" min="0" value="20"></td>
+								</tr>
+								<tr>
+									<td align="right">残りEXP</td>
+									<td><input type="number" class="RestExp" name="restexp"
+										id="restexp" style="width: 65px" max="999999" min="1"
+										value="10000"></td>
+								</tr>
+								<tr>
+									<td align="right">石ジャブ</td>
+									<td><input type="checkbox"
+										onclick="JabuCheck(this.checked);" class="Jabu" name="jabu"
+										id="jabu"></td>
+								</tr>
+								<tr>
+									<td align="right"><label id="stoneText">石の上限</label></td>
+									<td><input type="number" class="Stone" id="stoneNum"
+										style="width: 65px" max="100" min="0" value="0"></td>
+								</tr>
+							</table>
+							</center>
+						</div>
+					</td>
+
+					<!-- メインのクエスト -->
+					<td bgcolor="f0fff0"><b>主目的クエスト</b><br> <select size="5"
+						id="mainTarget" name="mainTarget" style="width: 180px">
+					</select>
+						<center>
+							<button type="button" name="removeMainQuest" id="removeMainQuest"
+								value="mainQuest" onclick="removeQuest(0)">選択クエスト削除</button>
+							<br>
+						</center></td>
+
+				</tr>
+				<tr>
+					<td bgcolor="f0f0ff">
+						<!-- クエストの選択肢 --> <b>クエスト選択</b><br>
+						<div id="qtab">
+							<font size="2">
+								<ul>
+									<li><a href="#normalq"><span>ノーマル</span></a></li>
+									<li><a href="#specialq"><span>スペシャル</span></a></li>
+									<li><a href="#techq"><span>テクニカル</span></a></li>
+								</ul>
+							</font>
+
+							<div id="normalq">
+								<p>
+									<font size="2"> <select name="quest11" id="quest11"
+										size="10" style="width: 120px" onChange="selectArea(0)">
+									</select>
+									</font>
+									<font size="2"> <select name="quest12" id="quest12"
+										size="10" style="width: 180px">
+									</select>
+									</font>
+								</p>
+							</div>
+							<div id="specialq">
+								<p>
+									<font size="2"> <select name="quest21" id="quest21"
+										size="10" style="width: 120px" onChange="selectArea(1)">
+									</select>
+									</font>
+									<font size="2"> <select name="quest22" id="quest22"
+										size="10" style="width: 180px">
+									</select>
+									</font>
+								</p>
+							</div>
+							<div id="techq">
+								<p>
+									<font size="2"> <select name="quest31" id="quest31"
+										size="10" style="width: 120px" onChange="selectArea(2)">
+									</select>
+									</font>
+									<font size="2"> <select name="quest32" id="quest32"
+										size="10" style="width: 180px">
+									</select>
+									</font>
+								</p>
+							</div>
+						</div>
+						<center>
+							<button type="button" name="addMainQuest" id="addMainQuest"
+								value="mainQuest" onclick="addQuest(0)">主目的クエストに追加</button>
+							<br>
+							<button type="button" name="addSubQuest" id="addSubQuest"
+								value="subQuest" onclick="addQuest(1)">副目的クエストに追加</button>
+							<br>
+						</center>
+					</td>
+
+					<!-- サブのクエスト -->
+					<td bgcolor="fffff0"><b>副目的クエスト</b><br> <select size="15"
+						id="subTarget" name="subTarget" style="width: 180px">
+					</select>
+						<center>
+							<button type="button" name="removeSubQuest" id="removeSubQuest"
+								value="subQuest" onclick="removeQuest(1)">選択クエスト削除</button>
+							<br>
+						</center></td>
+				</tr>
+				<tr>
+				<td colspan="2" bgcolor="ffff80">
+					<div class="Message" id="message"></div>
+				</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="000000">
+					<center>
+						<img src="img/misuritto_alpha.png" alt="" width=32 height=32>
+							<button type="button" name="calc" id="calc" value="calc"
+								onclick="run();">計算</button>
+						<img src="img/misuritto_alpha.png" alt="" width=32 height=32>
+						</center>
+					<td>
+				</tr>
+
+			</table>
+		</form>
+	</div>
+
+	<div class="Result" id="result"
+		style="background: #d0d0d0; float: left;"></div>
+
+</body>
+</html>
