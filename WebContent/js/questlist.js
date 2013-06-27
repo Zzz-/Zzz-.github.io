@@ -340,7 +340,9 @@ var QuestList = function() {
 	        new Quest("女神(超地獄)", 50, 6084), new Quest("大泥棒(地獄)", 50, 6320),
 	        new Quest("大泥棒(超地獄)", 50, 9641), new Quest("ヘライース(地獄)", 50, 18365),
 	        new Quest("ヘライース(超地獄)", 50, 25863), new Quest("サタン降臨", 50, 11850),
-	        new Quest("ゼウスディオス降臨", 50, 10698),
+	        new Quest("ゼウスディオス降臨", 50, 10698), new Quest("ドラりん(超級)", 30, 2448),
+	        new Quest("ドラりん(地獄)", 50, 3700), new Quest("ヘラウルズ(地獄)", 50, 9771),
+	        new Quest("ヘラウルズ(超地獄)", 50, 15977),
 	    ]),
 	    new Area("歴龍", [
 	        new Quest("歴龍中級", 15, 2000), new Quest("歴龍上級", 25, 8000),
@@ -390,6 +392,10 @@ var QuestList = function() {
 	    new Area("エヴァコラボ", [
 	        new Quest("使徒襲来中級", 15, 793), new Quest("使徒襲来上級", 25, 2619),
 	        new Quest("使徒襲来超級", 40, 9510), new Quest("使徒襲来地獄級", 50, 13575),
+	    ]),
+	    new Area("CoCコラボ", [
+	        new Quest("勝利の礎中級", 15, 700), new Quest("勝利の礎上級", 25, 2524),
+	        new Quest("勝利の礎超級", 40, 12500), new Quest("勝利の礎地獄級", 50, 18500),
 	    ]),
 
 	    new Area("アンケートダンジョン", [
