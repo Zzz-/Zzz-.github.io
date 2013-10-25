@@ -12,18 +12,10 @@
 
 	<!-- jQuery -->
 	<script type="text/javascript" src="WebContent/js/jquery.js"></script>
+	<script type="text/javascript" src="WebContent/js/accordion.js"></script>
 
     <title>気まぐれで作ったツール群</title>
     
-    <!-- program -->
-    <script type="text/javascript">
-    function TextToggle(id) {
-      $('#' + id).slideToggle('normal');
-    }
-
-    $(document).ready(function() {
-    });
-    </script>
   </head>
 
   <body>
@@ -51,56 +43,32 @@
 
 <p>気まぐれで作ったツール達。</p>
 
-	<a class="indexes" href="#" onclick="TextToggle('pokemon');">ポケモン関連</a> <br>
-	
-	<label id="pokemon" style="display: none;">
-		<p class="factor">
-		&nbsp;
+	<div class="accordion">
+	<h3 class="accordion-head">ポケモン関連</h3>
+	<div>
 		<a href="https://github.com/Zzz-/Pokemon-Tool/blob/master/DoubleTypeChecker/DTCKver1.16.zip?raw=true">DoubleTypeChecker(ver Kalos)</a>
-		</p>
-		<p class="explain">&emsp;
 		ポケモン（や玉神楽）を単純な属性ではなく、複合属性の殴り合いを考慮して、パーティの穴を教えます。<br>&emsp;
 		通称DTC先生。<br>&emsp;
 		javaなので各種PCからダウンロードしてお持ち帰りください。<br>&emsp;
 		※カロス対応につき玉神楽に流用はできなくなりました。<a href="https://github.com/Zzz-/Pokemon-Tool/">ポケモンのページ</a>の旧バージョンをご利用ください
-		</p><br>
-	</label>
-	<br>
-	<br>
+	</div>	
 
-	<a class="indexes" href="#" onclick="TextToggle('puzdora');">パズドラ関連</a> <br>
-	
-	<label id="puzdora" style="display: none;">
-		<p class="factor">
-		&nbsp;
+	<h3 class="accordion-head">パズドラ関連</h3>
+	<div>
 		<a href="http://solaireofzzz.github.io/WebContent/jubtan.html">ジャブたん！</a>
-		</p>
-		<p class="explain">&emsp;
 		パズドラの「余りそうなスタミナをできるだけおいしく消化するにはどうすればいいのか」を参考値程度に考えてくれるプログラム(javascript)。<br>&emsp;
+		アルゴリズムにやや難有り。
 		スマホからでも利用可能。
-		</p><br>
-	</label>
-	<br>
-	<br>
-	
-	<a class="indexes" href="#" onclick="TextToggle('tohofes');">玉神楽関連</a> <br>
-	
-	<label id="tohofes" style="display: none;">
-		<p class="factor">
-		&nbsp;
+	</div>	
+
+	<h3 class="accordion-head">玉神楽関連</h3>
+	<div>
 		<a href="https://github.com/solaireofzzz/Kagura-Tool/raw/master/%E7%8E%89%E7%A5%9E%E6%A5%BD%E7%A8%AE%E6%97%8F%E8%A1%A8.ods">
 		お手製種族表＋α</a>
-		</p>
-		<p class="explain">&emsp;
 		種族値や耐久指標、攻撃属性から髪の色までさまざまなデータを詰め込んでみた表計算ファイル(ods)。<br>&emsp;
 		BP計算ツールや簡易ダメージ計算ツール、速度乱数込みの速度判定ツール付き。
-		</p><br>
-	</label>
-
-
-      </section>
-    </div>
-
+	</div>	
+	
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
