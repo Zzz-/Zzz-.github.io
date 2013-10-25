@@ -318,6 +318,14 @@ var QuestList = function() {
 	        new Quest("炎翼の騎士", 13, 1700), new Quest("妖樹の計略", 13, 1000),
 	        new Quest("美しき炎剣", 16, 1900),
 	    ]),
+	    new Area("魔石龍の大洞窟", [
+	        new Quest("蒼石の飛龍", 40, 13200), new Quest("翠石の頑龍", 40, 13500),
+	        new Quest("緋石の刃龍", 40, 14300), new Quest("紫石の鋼龍", 40, 13200),
+	        new Quest("虹石の魔龍", 40, 13000),
+	    ]),
+	    new Area("聖獣達の楽園", [
+	        new Quest("天極の黄龍", 99, 22079),
+	    ]),
 	];
 
 	this.special = [
@@ -342,15 +350,23 @@ var QuestList = function() {
 	        new Quest("ヘライース(超地獄)", 50, 25863), new Quest("サタン降臨", 50, 11850),
 	        new Quest("ゼウスディオス降臨", 50, 10698), new Quest("ドラりん(超級)", 30, 2448),
 	        new Quest("ドラりん(地獄)", 50, 3700), new Quest("ヘラウルズ(地獄)", 50, 9771),
-	        new Quest("ヘラウルズ(超地獄)", 50, 15977),
+	        new Quest("ヘラウルズ(超地獄)", 50, 15977), new Quest("大天狗(超級)", 30, 6351),
+	        new Quest("大天狗(地獄)", 50, 9488), new Quest("アテナ(超地獄)", 50, 14120),
+	        new Quest("ラグオデA(超級)", 30, 4800), new Quest("ラグオデA(地獄)", 50, 9630),
+	        new Quest("タケミナカタ(地獄)", 50, 7000), new Quest("タケミナカタ(超地獄)", 50, 11000),
+	        new Quest("ベルゼブブ降臨", 50, 15300),
 	    ]),
 	    new Area("歴龍", [
 	        new Quest("歴龍中級", 15, 2000), new Quest("歴龍上級", 25, 8000),
 	        new Quest("歴龍超級", 40, 16000), new Quest("歴龍地獄級", 50, 20000),
 	    ]),
 	    new Area("戦国龍", [
-	        new Quest("戦国龍中級", 15, 1500), new Quest("戦国龍上級", 25, 4000),
-	        new Quest("戦国龍超級", 40, 13000), new Quest("戦国龍地獄級", 50, 20000),
+	        new Quest("戦国龍中級", 15, 1500), new Quest("戦国龍上級", 25, 3500),
+	        new Quest("戦国龍超級", 40, 13000), new Quest("戦国龍地獄級", 50, 18500),
+	    ]),
+	    new Area("神秘龍", [
+	        new Quest("神秘龍中級", 15, 1100), new Quest("神秘龍上級", 25, 2500),
+	        new Quest("神秘龍超級", 40, 8220), new Quest("神秘龍地獄級", 50, 12300),
 	    ]),
 
 	    new Area("ポリンの塔", [
@@ -397,6 +413,22 @@ var QuestList = function() {
 	        new Quest("勝利の礎中級", 15, 700), new Quest("勝利の礎上級", 25, 2524),
 	        new Quest("勝利の礎超級", 40, 12500), new Quest("勝利の礎地獄級", 50, 18500),
 	    ]),
+	    new Area("グルーヴコースターコラボ", [
+	        new Quest("星降る道中級", 15, 670), new Quest("星降る道上級", 25, 2500),
+	        new Quest("星降る道超級", 40, 15900), new Quest("星降る道宇宙", 50, 22300),
+	    ]),
+	    new Area("高岡市コラボ", [
+	        new Quest("大仏降臨？中級", 15, 2300), new Quest("大仏降臨？上級", 25, 4400),
+	        new Quest("大仏降臨？超級", 40, 12500), new Quest("大仏降臨？祭", 50, 18000),
+	    ]),
+	    new Area("アイルーでバザールコラボ", [
+	        new Quest("仕入れ中級", 15, 400), new Quest("仕入れ上級", 25, 1100),
+	        new Quest("仕入れ超級", 40, 4250), new Quest("仕入れG級", 50, 6000),
+	    ]),
+	    new Area("新・神羅万象チョココラボ", [
+	        new Quest("混沌の闇中級", 15, 800), new Quest("混沌の闇上級", 25, 2350),
+	        new Quest("混沌の闇超級", 40, 13400), new Quest("混沌の闇地獄級", 50, 19500),
+	    ]),
 
 	    new Area("アンケートダンジョン", [
 	        new Quest("アンケートD初級", 15, 500), new Quest("アンケートD中級", 15, 1700),
@@ -405,6 +437,10 @@ var QuestList = function() {
 	    new Area("伝説龍ラッシュ", [
 	        new Quest("伝説龍中級", 15, 2270), new Quest("伝説龍上級", 25, 6800),
 	        new Quest("伝説龍超級", 40, 18000), new Quest("伝説龍地獄級", 50, 23800),
+	    ]),
+	    new Area("天空龍ラッシュ", [
+	        new Quest("天空龍中級", 15, 3620), new Quest("天空龍上級", 25, 10855),
+	        new Quest("天空龍超級", 40, 26050), new Quest("天空龍地獄級", 50, 29875),
 	    ]),
 	    new Area("光届かぬ悪魔の巣", [
 	        new Quest("光無し初級", 15, 200), new Quest("光無し中級", 15, 700),
