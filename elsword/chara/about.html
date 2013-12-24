@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>暗転情報まとめページ</title>
+
+<noscript>
+JavaScriptがOFFになっています。<br>
+このページはJavaScriptを使用しています。JavaScriptをONにしてご利用ください。<br>
+</noscript>
+
+<!-- jQuery -->
+<script type="text/javascript" src="../js/jquery.js"></script>
+
+<link href="../css/common.css" rel="stylesheet" type="text/css" />
+<link href="../css/els.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+  tx  {color: white}
+</style>
+
+<script type="text/javascript">
+$(function(){
+  $("#header").load("../index.html");
+});
+</script>
+
+</head>
+<body>
+<div id="header"></div>
+<br>
+
+<tx>
+※現在テスト中！！<br>
+<br>
+回覧ありがとうございます。
+こちらはアバウトページです。
+</tx>
+
+<p class="acbtn" id="sample_btn"><img src="../icon/Els/Els.png" width="48" height="48">サンプル</p>
+<table class="acdetail" id="sample" border="">
+    <tbody>
+    <tr class="headrow"><td></td><td>名前</td><td>時間</td><td>フレーム</td><td>HIT</td><td>有利F</td><td>補足</td></tr>
+    <tr id="Awaking"><td align="center"><img class="dataimg" src="../icon/00_awaking.png" width="32" height="32" style="cursor: pointer;"></td><td>覚醒</td><td>1.3s</td><td>78</td><td>－</td><td>19</td><td></td></tr>
+    <tr class="movierow" id="m_Awaking" style="display: none;"><td colspan="7" align="center"><iframe width="320" height="240" src="http://www.youtube.com/embed/HKFSOAyyNuM?rel=0" frameborder="0" allowfullscreen=""></iframe></td></tr>
+    <tr id="MegaSlash"><td align="center"><img class="dataimg" src="../icon/Els/Els02_Mega Slash.png" width="32" height="32" style="cursor: pointer;"></td><td>メガスラッシュ</td><td>0.6s</td><td>36</td><td>×</td><td>0</td><td></td></tr>
+    <tr class="movierow" id="m_MegaSlash"><td colspan="7" align="center"><iframe width="320" height="240" src="http://www.youtube.com/embed/tFxIqjmfK0M?rel=0" frameborder="0" allowfullscreen=""></iframe></td></tr>
+    </tbody>
+</table>
+
+<br>
+<tx>
+各キャラ、各職の表は上記のように収納されています。クリックするとﾋﾞﾖｰﾝと伸びます。<br>
+また、アイコンをクリックすると動画が表示されます。<br>
+<br>
+名前：スキル名<br>
+時間：敵が止まっている時間(単位は秒)<br>
+フレーム：敵が止まっているフレーム数(1秒間60フレーム)<br>
+HIT：暗転中に攻撃が当たるかどうか<br>
+(○：全て当たる △:途中まで当たる、カス当たり ×：暗転中に1HITもしない －:そもそも攻撃が無い)<br>
+有利F：有利フレーム、暗転が解ける前に動けるフレーム数 大きいほど暗転を繋ぎやすい<br>
+<br>
+数が多く、さらに今回は一からのスタートなのでまだまだ情報が揃っていません。<br>
+筆者の近況も忙しいため気長に見守っていただければと思います。<br>
+動画の公募状況や作業状況についてはブログやツイッターの方で確認してください。
+</tx>
+
+<br><br>
+<copyright>
+お約束<br>
+Published by NHN Japan Corporation.<br>
+Copyright (C) KOG Corporation. All rights reserved.
+</copyright>
+
+<script type="text/javascript" src="../js/accordion.js"></script>
+</body>
+</html>
