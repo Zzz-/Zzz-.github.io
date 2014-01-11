@@ -63,20 +63,27 @@ Active.prototype = {
 		return "../icon/" + this.icon;
 	},
 	
-	getIconCell : function(){
-		if(!this.icon) return "";
-		return '<img class="dataimg" src="'+this.getIcon()+'" width=32 height=32>';
+	enableUrl : function(){
+		if(!this.url) return false;
+		if(this.url == "url") return false;
+		return true;
 	},
 	
-	// ***作りかけ(URL不明につき)***
+	getIconCell : function(){
+		if(!this.icon) return "";
+		if(this.enableUrl())
+			return '<img class="dataimg" src="'+this.getIcon()+'" width=32 height=32>';
+		else
+			return '<img class="_dataimg" src="'+this.getIcon()+'" width=32 height=32>';
+	},
+	
 	getUrl : function(){
-		if(!this.url) return "";
-		if(this.url == "url") return "";
+		if(!this.enableUrl()) return "";
 		return "http://www.youtube.com/embed/" + this.url + "?rel=0";
 	},
 	
 	getYoutubeCode : function(){
-		if(!this.getUrl()) return "NODATA";
+		if(!this.enableUrl()) return "NODATA";
 		return '<iframe width="320" height="240" src="' + this.getUrl() + '" frameborder="0" allowfullscreen></iframe>';
 	},
 
@@ -100,6 +107,7 @@ Active.prototype = {
 	},
 	toMovieRow : function(tableRef) {
 		if(!this.icon) return;
+		if(!this.enableUrl()) return;
 		var targetRow = tableRef.insertRow(-1);
 		targetRow.className = "movierow";
 		targetRow.id = "m_"+this.id;
