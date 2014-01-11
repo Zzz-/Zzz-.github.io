@@ -22,6 +22,7 @@ var Els = function () {
 //    new Active("name", "id", frame, hit, adframe, "tips", "Els/icon", "url"),
 	    new Active("エアスラッシュ", "AirSlash", "Els/Els15_Air Slash.png"),
 	    new Active("スパイラルブラスト", "SpiralBlast", "Els/Els16_Spiral Blast.png"),
+	    new Active("サンドストーム", "Sandstorm", 61, 1, 1, "", "Els/Els21_Sandstorm.png", "LjlqaNtv6go"),
 	    new Active(),
 	    
 	  ]),
