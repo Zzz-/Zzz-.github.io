@@ -5,25 +5,54 @@ var Eve = function () {
 	  new Job("イヴ", "eve", "Eve/Eve.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Eve/icon", "url"),
       new Active("覚醒", "Awaking", "00_awaking.png"),
-	    
+      new Active("ディメンションリンク－ブレーダー", "Dimension Link – Blader", "Eve/Eve05_Dimension Link Blader.png"),
+      new Active("ディメンションリンク－セントリー", "Dimension Link – Sentry", "Eve/Eve03_Dimension Link.png"),
+      new Active("イリュージョンストライク", "Illusion Strike", "Eve/Eve02_Illusion Strike.png"),
+      new Active("イリュージョンスティンガー", "Illusion Stinger", "Eve/Eve04_Illusion Stinger.png"),
+      new Active("ディメンションリンク－ガーディアン", "Dimension Link – Guardian", "Eve/Eve07_Dimension Link Guardian.png"),
+      new Active("ジェネレートブラックホール", "Generator Black Hole", "Eve/Eve06_Generate Black Hole.png"),
 	  ]),
 
 	  new Job("コードエキゾチック/コードネメシス", "cn", "Eve/CodeNemesis.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Eve/icon", "url"),
-	    new Active(),
-	    
+	    new Active("エクスプロージョンインパクト", "Explosion Impact", "Eve/Eve09_Explosion Impact.png"),
+	    new Active("ホーネットスティング－エクスプロージョン", "Hornet Sting – Explosion", "Eve/Eve08_Hornet Sting.png"),
+	    new Active("ホーネットスティング－シェイフトチャージ", "Hornet Sting - Shaped Charge", "Eve/Eve08a_Hornet Sting.png"),
+	    new Active("クイーンズスローン", "Queen's Throne", "Eve/Eve11_Queen's Throne.png"),
+	    new Active("ジャンクブレイク", "Junk Break", "Eve/Eve12_Junk Break.png"),
+	    new Active("アトミックブラスター－プラズマ", "Atomic Blaster - Plasma Gun", "Eve/Eve13_Atomic Blaster.png"),
+	    new Active("アトミックブラスター－ソニック", "Atomic Blaster - Sonic Gun", "Eve/Eve13a_Atomic Blaster.png"),
+	    new Active("アトミックシールド", "Atomic Shield", "Eve/Eve14_Atomic Shield.png"),
+	    new Active("アイアンスクラップス", "Iron Scraps", "Eve/Eve10_Iron Scraps.png"),
+	    new Active("アサルトスピア－ジャッジメント", "Assault Spear – Judgement", "Eve/Eve21a_Assault Spear.png"),
+	    new Active("ルナティックスカッド", "Lunatic Scud", "Eve/EveHA01_Lunatic Scud.png"),
 	  ]),
 
 	  new Job("コードアーキテクチャー/コードエンプレス", "cep", "Eve/CodeEmpress.png", [
 //		new Active("name", "id", frame, hit, adframe, "tips", "Eve/icon", "url"),
-			new Active(),
-	    
+			new Active("ソニックウェーブ", "Sonic Wave", "Eve/Eve16_Sonic Wave.png"),
+			new Active("ジェノサイドリッパー", "Genocide Ripper", "Eve/Eve19_Genocide Ripper.png"),
+			new Active("ヘヴンズフィスト－プレッシャー", "Heaven's Fist – Pressure", "Eve/Eve18_Heaven's Fist.png"),
+			new Active("ヘヴンズフィスト－スイーパー", "Heaven's Fist – Sweeper", "Eve/Eve18a_Heaven's Fist.png"),
+			new Active("サーフィスカッティング", "Surface Cutting", "Eve/Eve15_Surface Cutting.png"),
+			new Active("エレクトロニックフィールド", "Electronic Field", "Eve/Eve20_Electronic Field.png"),
+			new Active("アサルトスピア－バスター", "Assault Spear – Burster", "Eve/Eve21_Assault Spear.png"),
+			new Active("スペースレンチ", "Space Wrench", "Eve/Eve17_Space Wrench.png"),
+			new Active("コード:サンダーボルト", "Code:Thunderbolt", "Eve/EveHA02_Code Thunderbolt.png"),
 	  ]),
 
 	  new Job("コードエレクトラ/コードバトルセラフ", "cbs", "Eve/BattleSeraph.png", [
 //		new Active("name", "id", frame, hit, adframe, "tips", "Eve/icon", "url"),
-			new Active(),
-	    
+			new Active("パーティクルレイ", "Particle Ray", "Eve/Eve22_Particle Ray.png"),
+			new Active("スイープローリング－オーバーチャージ", "Sweep Rolling - Over Charge", "Eve/Eve23_Sweep Rolling.png"),
+			new Active("スイープローリング－トライバルカン", "Sweep Rolling - Tri Vulcan", "Eve/Eve23a_Sweep Rolling.png"),
+			new Active("フォトンフレア", "Photon Flare", "Eve/Eve24_Photon Flare.png"),
+			new Active("リニアディバイダー", "Linear Divider", "Eve/Eve29_Linear Divider.png"),
+			new Active("ギガストリーム", "Giga Stream", "Eve/Eve26_Giga Stream.png"),
+			new Active("エネルギーニードル", "Energy Needles", "Eve/Eve27_Energy Needles.png"),
+			new Active("サウザンドスター", "Thousand Star", "Eve/Eve25_Thousand Star.png"),
+			new Active("エナジェティックハート", "Energetic Heart", "Eve/Eve28_Energetic Heart.png"),
+			new Active("サイキックアーティラリー", "Psychic Artillery", "Eve/EveHA03_Psychic Artillery.png"),
 	  ]),
 	  
 	];
