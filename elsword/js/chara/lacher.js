@@ -10,7 +10,7 @@ var Lacher = function () {
 
 	  new Job("シューティングガーディアン/デッドリーチェイサー", "dc", "Lacher/DeadlyChaser.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Lacher/icon", "url"),
-			new Active("アウトレイジストライク", "Outrage Strike", 179, 1, 0, "", "Lacher/LacherHA01_Outrage Strike.png", "oX3LjfH94Tc"),
+			new Active("アウトレイジストライク", "Outrage Strike", 179, 1, 0, "", "Lacher/LacherHA01_Outrage Strike.png", "5TynF3602A0"),
 	    
 	  ]),
 
