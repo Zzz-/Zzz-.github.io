@@ -31,14 +31,14 @@ var Rena = function () {
       new Active("ハミングウィンド", "Humming Wind", "Rena/Rena15_Humming Wind.png"),
       new Active("ガイドアロー", "Guide Arrow", "Rena/Rena16_Guide Arrow.png"),
       new Active("クレイジーショット", "Crazy Shot", "Rena/Rena19_Crazy Shot.png"),
-      new Active("グングニル", "Gungnir", 222, 2, 0, "いわゆる暗キャン", "Rena/Rena18_Gungnir.png", "QJPQc3D9Pf4"),
+      new Active("グングニル", "Gungnir", 222, 2, 0, "", "Rena/Rena18_Gungnir.png", "QJPQc3D9Pf4"),
       new Active("グングニル(キャンセル)", "Gungnir_cancel", "Rena/Rena18_Gungnir.png"),
       new Active("エアロストレイフ", "Aero-Strafe", "Rena/Rena21_Aero-Strafe.png"),
       new Active("ウィンドブラスト", "Wind Blast", "Rena/Rena29_Wind Blast.png"),
       new Active("ウインドワード", "Wind Wall", "Rena/Rena17_Wind Wall.png"),
       new Active("フリージングアロー－スティング", "Freezing Arrow – Sting", "Rena/Rena20_Freezing Arrow.png"),
       new Active("フリージングアロー－ドリズル", "Freezing Arrow – Drizzle", "Rena/Rena20a_Freezing Arrow.png"),
-      new Active("シューターディスティニー", "Shooter Destiny", "Rena/RenaHA02_Shooter Destiny.png"),
+      new Active("シューターディスティニー", "Shooter Destiny", 90, 1, 0, "", "Rena/RenaHA02_Shooter Destiny.png", "KSWOK7LWKMY"),
 	  ]),
 
 	  new Job("トラッピングレンジャー/ナイトウォッチャー", "nw", "Rena/NightWatcher.png", [
@@ -51,7 +51,7 @@ var Rena = function () {
       new Active("トラッピングアロー－ボンゴス", "Trapping Arrow – Fungus", "Rena/Rena23a_Trapping Arrow.png"),
       new Active("フューリアスインゲージ", "Furious Engage", "Rena/Rena27_Furious Engage.png"),
       new Active("グライディングストライク", "Gliding Strike", "Rena/Rena28_Gliding Strike.png"),
-      new Active("イノセント", "Innocent", "Rena/RenaHA03_Innocent.png"),
+      new Active("イノセント", "Innocent", 73, 1, 0, "", "Rena/RenaHA03_Innocent.png", "NveAycjiSnU"),
 	  ]),
 	  
 	];

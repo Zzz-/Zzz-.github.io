@@ -25,7 +25,7 @@ var Eve = function () {
 	    new Active("アトミックシールド", "Atomic Shield", "Eve/Eve14_Atomic Shield.png"),
 	    new Active("アイアンスクラップス", "Iron Scraps", "Eve/Eve10_Iron Scraps.png"),
 	    new Active("アサルトスピア－ジャッジメント", "Assault Spear – Judgement", "Eve/Eve21a_Assault Spear.png"),
-	    new Active("ルナティックスカッド", "Lunatic Scud", "Eve/EveHA01_Lunatic Scud.png"),
+	    new Active("ルナティックスカッド", "Lunatic Scud", 179, 1, 0, "ナソードスピアの時", "Eve/EveHA01_Lunatic Scud.png", "85dr9np_k5I"),
 	  ]),
 
 	  new Job("コードアーキテクチャー/コードエンプレス", "cep", "Eve/CodeEmpress.png", [
@@ -38,7 +38,7 @@ var Eve = function () {
 			new Active("エレクトロニックフィールド", "Electronic Field", "Eve/Eve20_Electronic Field.png"),
 			new Active("アサルトスピア－バスター", "Assault Spear – Burster", "Eve/Eve21_Assault Spear.png"),
 			new Active("スペースレンチ", "Space Wrench", "Eve/Eve17_Space Wrench.png"),
-			new Active("コード:サンダーボルト", "Code:Thunderbolt", "Eve/EveHA02_Code Thunderbolt.png"),
+			new Active("コード:サンダーボルト", "Code:Thunderbolt", 102, 2, 0, "", "Eve/EveHA02_Code Thunderbolt.png", "tHRIKAYiglg"),
 	  ]),
 
 	  new Job("コードエレクトラ/コードバトルセラフ", "cbs", "Eve/BattleSeraph.png", [
@@ -52,7 +52,7 @@ var Eve = function () {
 			new Active("エネルギーニードル", "Energy Needles", "Eve/Eve27_Energy Needles.png"),
 			new Active("サウザンドスター", "Thousand Star", "Eve/Eve25_Thousand Star.png"),
 			new Active("エナジェティックハート", "Energetic Heart", "Eve/Eve28_Energetic Heart.png"),
-			new Active("サイキックアーティラリー", "Psychic Artillery", "Eve/EveHA03_Psychic Artillery.png"),
+			new Active("サイキックアーティラリー", "Psychic Artillery", 0, 0, 0, "暗転無し", "Eve/EveHA03_Psychic Artillery.png", "xqFOFEyMjLs"),
 	  ]),
 	  
 	];
