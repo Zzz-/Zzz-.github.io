@@ -8,11 +8,14 @@ var Job = function(name, id, icon, activeList){
 
 Job.prototype = {
 	getIcon : function(){
+		if(!this.icon) return "";
 		return "../icon/" + this.icon;
 	},
 	loadBtn : function(){
 		var btn = document.getElementById(this.id+"_btn");
-		btn.innerHTML = '<img src="'+this.getIcon()+'" width=48 height=48>'+this.name;
+		if(this.getIcon())
+			btn.innerHTML = '<img src="'+this.getIcon()+'" width=48 height=48>'+this.name;
+		else btn.innerHTML = this.name;
 	},
 	loadData : function(){
 		var tableRef = document.getElementById(this.id);

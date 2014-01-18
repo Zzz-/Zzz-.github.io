@@ -1,5 +1,5 @@
 body {
-	background: #666;
+	background: #555;
 }
 
 table {
@@ -37,7 +37,7 @@ table {
 }
 
 .acbtn {
-	width:650px;
+	width:680px;
 	padding:3px 0 3px 10px;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -45,7 +45,7 @@ table {
 
 .acdetail {
 	background: #fff;
-	width:600px;
+	width:650px;
 }
 
 
