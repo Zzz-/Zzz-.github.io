@@ -22,17 +22,16 @@ var Elesis = function () {
 	    new Active("セイバーエクスティンクション", "Saber – Extinction", 61, 2, 24, "チャージ完了音の時に暗転", "Elesis/Elesis10_Saber Extinction.png", "XA7NsbMvGzg"),
 	    new Active("ジャッジメントドライブ", "Sword of Judgement", 51, 2, 0, "2回暗転スキル", "Elesis/Elesis11_Sword of Judgement.png", "LIxQt-8XlrA"),
 	    new Active("(2回目の暗転)", "Sword of Judgement", 108, 2, 0, "合間17F", "Elesis/Elesis11_Sword of Judgement.png"),
-	    new Active("勝利の剣", "Sword of Victory", "Elesis/Elesis12_Sword of Victory.png"),
-
+	    new Active("勝利の剣", "Sword of Victory", 90, 2, 0, "", "Elesis/Elesis12_Sword of Victory.png", "1qaDodfwiSM"),
 		]),
 
 	  new Job("パイロナイト", "pk", "Elesis/PyroKnight.png", [
 //	new Active("name", "id", frame, hit, adframe, "tips", "Elesis/icon", "url"),
 	    new Active("ソードイラプション", "Sword Eruption", 53, 2, 2, "", "Elesis/Elesis17_Sword Eruption.png", "fJlgV2Dyad8"),
-	    new Active("バーストライジング", "Burst Rising", "Elesis/Elesis18_Burst Rising.png"),
+	    new Active("バーストライジング", "Burst Rising", 83, 2, 0, "", "Elesis/Elesis18_Burst Rising.png", "mzQPvQGq1NQ"),
 	    new Active("バーストウェーブ", "Burst Wave", 76, 2, 0, "", "Elesis/Elesis19_Burst Wave.png", "dMDf62xnDRI"),
 	    new Active("ソードファイア", "Sword Fire", 89, 1, 0, "", "Elesis/Elesis20_Sword Fire.png", "h5GMUB9m6Gk"),
-	    new Active("インファーナルブレード", "Infernal Blade", "Elesis/Elesis21_Infernal Blade.png"),
+	    new Active("インファーナルブレード", "Infernal Blade", 72, 1, 0, "", "Elesis/Elesis21_Infernal Blade.png", "5xdAC8UPDxY"),
 	    new Active("エターナルファイア", "Eternal Fire", 90, 1, 0, "", "Elesis/Elesis22_Eternal Fire.png", "YWeEuoODHDc"),
 		]),
 	  

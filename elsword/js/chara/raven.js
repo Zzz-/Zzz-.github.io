@@ -35,7 +35,7 @@ var Raven = function () {
       new Active("ウルフファング", "Wolf Fang", "Raven/Raven20_Wolf Fang.png"),
       new Active("フライングインパクト", "Flying Impact", 48, 1, 0, "", "Raven/Raven16_Flying Impact.png", "FC7hZo0odtA"),
       new Active("ギガドライブ－リミッター", "Giga Drive – Limiter", 53, 0, 0, "", "Raven/Raven21_Giga Drive.png", "qWMxjpuhNnY"),
-      new Active("ギガドライブ－サイズミックトレモール", "Giga Drive - Seismic Tremor", "Raven/Raven21a_Giga Drive.png"),
+      new Active("ギガドライブ－サイズミックトレモール", "Giga Drive - Seismic Tremor", 52, 0, 0, "", "Raven/Raven21a_Giga Drive.png", "WqcYg3BxTo4"),
       new Active("エクストリームブレード", "Extreme Blade", "Raven/RavenHA02_Extreme Blade.png"),
 	  ]),
 
@@ -50,8 +50,8 @@ var Raven = function () {
 			new Active("デッドリーレイド", "Deadly Raid", "Raven/Raven27_Deadly Raid.png"),
 			new Active("イグニッションクロウ－ナパーム", "Ignition Crow – Napalm", "Raven/Raven28a_Ignition Crow.png"),
 			new Active("(オーバーヒート)", "Ignition Crow – Napalm_Over Heat", "Raven/Raven28a_Ignition Crow.png"),
-			new Active("イグニッションクロウ－インシノレーション", "Ignition Crow – Incineration", 120, 0, 27, "", "Raven/Raven28_Ignition Crow.png", "bo0nRmQKkRE"),
-			new Active("(オーバーヒート)", "Ignition Crow – Incineration_Over Heat", 121, 0, 0, "", "Raven/Raven28_Ignition Crow.png", "bkeIF1qAHGw"),
+			new Active("イグニッションクロウ－ナパーム", "Ignition Crow – Napalm", 121, 2, 27, "", "Raven/Raven28a_Ignition Crow.png", "LMzQVpfCAjY"),
+			new Active("(オーバーヒート)", "Ignition Crow – Napalm_Over Heat", -41, 2, 0, "", "Raven/Raven28a_Ignition Crow.png", "51ADY64iKH8"),
 			new Active("バーニングバスター", "Burning Burster", 90, 1, 0, "", "Raven/RavenHA03_Burning Burster.png", "DD5VDfJFQo8"),
 	  ]),
 	  
