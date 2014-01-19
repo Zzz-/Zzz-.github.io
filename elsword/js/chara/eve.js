@@ -52,7 +52,7 @@ var Eve = function () {
 			new Active("エネルギーニードル", "Energy Needles", "Eve/Eve27_Energy Needles.png"),
 			new Active("サウザンドスター", "Thousand Star", "Eve/Eve25_Thousand Star.png"),
 			new Active("エナジェティックハート", "Energetic Heart", "Eve/Eve28_Energetic Heart.png"),
-			new Active("サイキックアーティラリー", "Psychic Artillery", 0, 0, 0, "暗転無し", "Eve/EveHA03_Psychic Artillery.png", "xqFOFEyMjLs"),
+			new Active("サイキックアーティラリー", "Psychic Artillery", 31, 0, 0, "停止前153F(2.54s)", "Eve/EveHA03_Psychic Artillery.png", "2X_6maVCG-A"),
 	  ]),
 	  
 	];

@@ -34,7 +34,7 @@ var Els = function () {
 	    new Active("ダブルスラッシュ", "Double Slash", "Els/Els18_Double Slash.png"),
 	    new Active("アルマゲドンブレード", "Armageddon Blade", "Els/Els19_Armageddon Blade.png"),
 	    new Active("ソニックブレイド", "Sonic Blade", "Els/Els20_Sonic Blade.png"),
-	    new Active("ウインドミル", "Windmill", 37, 1, 0, "", "Els/Els17_Windmill.png", ""),
+	    new Active("ウインドミル", "Windmill", 37, 1, 0, "", "Els/Els17_Windmill.png", "X458x86g8p8"),
 	    new Active("サンドストーム", "Sandstorm", 61, 1, 1, "", "Els/Els21_Sandstorm.png", "LjlqaNtv6go"),
 	    new Active("ギガンティックスラッシュ", "Gigantic Slash", "Els/ElsHA02_Gigantic Slash.png"),	
 	  ]),
