@@ -17,14 +17,14 @@ var Els = function () {
 //    new Active("name", "id", frame, hit, adframe, "tips", "Els/icon", "url"),
 	    new Active("ウィンドブレード", "Wind Blade", "Els/Els08_Wind Blade.png"),
 	    new Active("ライジングスラッシュ", "Rising Slash", "Els/Els09_Rising Slash.png"),
-	    new Active("ライジングウェーブ", "Rising Wave", "Els/Els29_Rising Wave.png"),
+	    new Active("ライジングウェーブ", "Rising Wave", 35, 0, 0, "", "Els/Els29_Rising Wave.png", "RzAIVuIRRwU"),
 	    new Active("ソードファイア", "Sword Fire", "Els/Els10_Sword Fire.png"),
 	    new Active("フェニックスタロン", "Phoenix Talon", "Els/Els12_Phoenix Talon.png"),
 	    new Active("(2回目の暗転)", "Phoenix Talon", "Els/Els12_Phoenix Talon.png"),
 	    new Active("スプラッシュエクスプロージョン", "Splash Explosion", "Els/Els13_Splash Explosion.png"),
 	    new Active("ストームブレード", "Storm Blade", "Els/Els11_Storm Blade.png"),
 	    new Active("ルナブレード", "Luna Blade", "Els/Els14_Luna Blade.png"),
-	    new Active("シャイニングルーンバスター", "Shining Rune Buster", "Els/ElsHA01_Shining Rune Buster.png"),	    
+	    new Active("シャイニングルーンバスター", "Shining Rune Buster", 67, 1, 0, "動画募集中", "Els/ElsHA01_Shining Rune Buster.png", ""),
 	  ]),
 
 	  new Job("ソードナイト/ロードナイト", "lk", "Els/LordKnight.png", [

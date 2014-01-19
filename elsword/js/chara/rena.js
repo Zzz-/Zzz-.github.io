@@ -34,7 +34,7 @@ var Rena = function () {
       new Active("グングニル", "Gungnir", 222, 2, 0, "", "Rena/Rena18_Gungnir.png", "QJPQc3D9Pf4"),
       new Active("グングニル(キャンセル)", "Gungnir_cancel", "Rena/Rena18_Gungnir.png"),
       new Active("エアロストレイフ", "Aero-Strafe", "Rena/Rena21_Aero-Strafe.png"),
-      new Active("ウィンドブラスト", "Wind Blast", "Rena/Rena29_Wind Blast.png"),
+      new Active("ウィンドブラスト", "Wind Blast", 85, 2, 0, "", "Rena/Rena29_Wind Blast.png", "4wME2w5xyVo"),
       new Active("ウインドワード", "Wind Wall", "Rena/Rena17_Wind Wall.png"),
       new Active("フリージングアロー－スティング", "Freezing Arrow – Sting", "Rena/Rena20_Freezing Arrow.png"),
       new Active("フリージングアロー－ドリズル", "Freezing Arrow – Drizzle", "Rena/Rena20a_Freezing Arrow.png"),

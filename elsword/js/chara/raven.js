@@ -20,7 +20,7 @@ var Raven = function () {
 			new Active("ガーディアンストライク", "Guardian Strike", "Raven/Raven11_Guardian Strike.png"),
 			new Active("ニュークリア", "Nuclear", "Raven/Raven12_Nuclear.png"),
 			new Active("ワイルドチャージ", "Wild Charge", "Raven/Raven14_Wild Charge.png"),
-			new Active("アークエネミー", "Arch-Enemy", "Raven/Raven09_Arch-Enemy.png"),
+			new Active("アークエネミー", "Arch-Enemy", 84, -1, 10, "", "Raven/Raven09_Arch-Enemy.png", "74qkt14CJUU"),
 			new Active("エックスクラッシュ", "X Crash", "Raven/Raven13_X Crash.png"),
 			new Active("インフェルナルアームズ", "Infernal Arms", 73, 1, 0, "", "Raven/RavenHA01_Infernal Arms.png", "yNCkre8FKhQ"),
 	  ]),
@@ -36,7 +36,7 @@ var Raven = function () {
       new Active("フライングインパクト", "Flying Impact", 48, 1, 0, "", "Raven/Raven16_Flying Impact.png", "FC7hZo0odtA"),
       new Active("ギガドライブ－リミッター", "Giga Drive – Limiter", 53, 0, 0, "", "Raven/Raven21_Giga Drive.png", "qWMxjpuhNnY"),
       new Active("ギガドライブ－サイズミックトレモール", "Giga Drive - Seismic Tremor", 52, 0, 0, "", "Raven/Raven21a_Giga Drive.png", "WqcYg3BxTo4"),
-      new Active("エクストリームブレード", "Extreme Blade", "Raven/RavenHA02_Extreme Blade.png"),
+      new Active("エクストリームブレード", "Extreme Blade", 71, 1, 0, "", "Raven/RavenHA02_Extreme Blade.png", "vqskSsyx8vI"),
 	  ]),
 
 	  new Job("ウェポンテイカー/ベテランコマンダー", "vc", "Raven/VeteranCommander.png", [

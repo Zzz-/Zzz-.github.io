@@ -47,7 +47,7 @@ var Eve = function () {
 			new Active("スイープローリング－オーバーチャージ", "Sweep Rolling - Over Charge", "Eve/Eve23_Sweep Rolling.png"),
 			new Active("スイープローリング－トライバルカン", "Sweep Rolling - Tri Vulcan", "Eve/Eve23a_Sweep Rolling.png"),
 			new Active("フォトンフレア", "Photon Flare", "Eve/Eve24_Photon Flare.png"),
-			new Active("リニアディバイダー", "Linear Divider", "Eve/Eve29_Linear Divider.png"),
+			new Active("リニアディバイダー", "Linear Divider", 55, 0, 0, "", "Eve/Eve29_Linear Divider.png", "rf89CZM5mE8"),
 			new Active("ギガストリーム", "Giga Stream", "Eve/Eve26_Giga Stream.png"),
 			new Active("エネルギーニードル", "Energy Needles", "Eve/Eve27_Energy Needles.png"),
 			new Active("サウザンドスター", "Thousand Star", "Eve/Eve25_Thousand Star.png"),
