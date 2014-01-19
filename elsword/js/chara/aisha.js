@@ -36,7 +36,7 @@ var Aisha = function () {
 			new Active("プラズマカッター", "Plasma Cutter", "Aisha/Aisha19_Plasma Cutter.png"),
 			new Active("ファントムブリージング－ダークフォール", "Phantom Breathing - Dark Fall", "Aisha/Aisha21_Phantom Breathing.png"),
 			new Active("ファントムブリージング－ダークホール", "Phantom Breathing - Dark Hole", 61, 2, 0, "", "Aisha/Aisha21a_Phantom Breathing.png", "osH6n1nDCOE"),
-			new Active("アビスアンゴル", "Abyss Angkor", "Aisha/AishaHA02_Abyss Angkor.png"),
+			new Active("アビスアンゴル", "Abyss Angkor", 132, 0, 0, "吸引開始まで", "Aisha/AishaHA02_Abyss Angkor.png", "IIAanrKtI8Q"),
 	  ]),
 
 	  new Job("バトルマジシャン/ディメンションウィッチ", "dw", "Aisha/DimensionWitch.png", [

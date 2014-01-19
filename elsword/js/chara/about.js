@@ -9,6 +9,7 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "", [
+	    new Active("アビスアンゴル", "Abyss Angkor", 132, 0, 0, "吸引開始まで", "Aisha/AishaHA02_Abyss Angkor.png", "IIAanrKtI8Q"),
 	    new Active("ライジングウェーブ", "Rising Wave", 35, 0, 0, "", "Els/Els29_Rising Wave.png", "RzAIVuIRRwU"),
 	    new Active("シャイニングルーンバスター", "Shining Rune Buster", 67, 1, 0, "動画募集中", "Els/ElsHA01_Shining Rune Buster.png", ""),
 	    new Active("アイスストーム", "Ice Storm", 36, 1, 0, "", "Aisha/Aisha29_Ice Storm.png", "LgUnqUXFVMw"),
