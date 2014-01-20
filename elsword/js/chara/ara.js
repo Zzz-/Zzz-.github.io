@@ -26,7 +26,7 @@ var Ara = function () {
 	    new Active("羅刹", "Swallow Assault", "Ara/Ara12_Swallow Assault.png"),
 	    new Active("猛虎奥義:猛虎破天", "Fierce Tiger", "Ara/AraEx02_Fierce Tiger.png"),
 	    new Active("猛虎破天(単体)", "Fierce Tiger", "Ara/AraEx02_Fierce Tiger.png"),
-	    new Active("覇気天衝－千手華", "Thousand Blossoms", "Ara/AraHA01_Thousand Blossoms.png"),
+	    new Active("覇気天衝－千手華", "Thousand Blossoms", 96, 1, 0, "", "Ara/AraHA01_Thousand Blossoms.png", "huS3buJR31M"),
 	  ]),
 	  
 	];
