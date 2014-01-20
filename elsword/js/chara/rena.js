@@ -31,7 +31,7 @@ var Rena = function () {
       new Active("ハミングウィンド", "Humming Wind", 36, 0, 0, "", "Rena/Rena15_Humming Wind.png", "RIIZKmc5ows"),
       new Active("ガイドアロー", "Guide Arrow", 35, 0, 0, "", "Rena/Rena16_Guide Arrow.png", "NTQAFhR9RSw"),
       new Active("クレイジーショット", "Crazy Shot", 85, 1, 0, "", "Rena/Rena19_Crazy Shot.png", "S2sj0FCBA_k"),
-      new Active("グングニル", "Gungnir", 222, 2, 0, "攻撃HIT時に発動", "Rena/Rena18_Gungnir.png", "QJPQc3D9Pf4"),
+      new Active("グングニル", "Gungnir", 222, 2, 0, "", "Rena/Rena18_Gungnir.png", "QJPQc3D9Pf4"),
       new Active("グングニル(キャンセル)", "Gungnir_cancel", 221, 2, 35, "攻撃HIT時に発動", "Rena/Rena18_Gungnir.png", "TxjiMyuy6hI"),
       new Active("エアロストレイフ", "Aero-Strafe", 96, 2, 15, "", "Rena/Rena21_Aero-Strafe.png", "YMe3OMK1j1U"),
       new Active("ウィンドブラスト", "Wind Blast", 85, 2, 0, "", "Rena/Rena29_Wind Blast.png", "4wME2w5xyVo"),
