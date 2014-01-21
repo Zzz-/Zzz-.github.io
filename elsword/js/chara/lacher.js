@@ -4,19 +4,19 @@ var Lacher = function () {
 	this.jobs = [
 	  new Job("ラシェ", "lacher", "Lacher/Lacher.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Lacher/icon", "url"),
-      new Active("覚醒", "Awaking", "00_awaking.png"),
-      new Active("ルナティックブロウ", "Lunatic Blow", "Lacher/Lacher04_Lunatic Blow.png"),
-      new Active("ブルータルスウィング", "Brutal Swing", "Lacher/Lacher02_Brutal Swing.png"),
-      new Active("スケアチェイス", "Scare Chase", "Lacher/Lacher03_Scare Chase.png"),
-      new Active("ディトネイション", "Detonation", "Lacher/Lacher05_Detonation.png"),
-      new Active("ギガンティックインパクト", "Gigantic Impact", "Lacher/Lacher06_Gigantic Impact.png"),
-      new Active("アケルダマ", "Aceldama", "Lacher/Lacher07_Aceldama.png"),
+      new Active("覚醒", "Awaking", 113, -1, 32, "", "00_awaking.png", "f--nn2Whhz8"),
+      new Active("ルナティックブロウ", "Lunatic Blow", 41, 1, 0, "", "Lacher/Lacher04_Lunatic Blow.png", "jgxq2mu84xQ"),
+      new Active("ブルータルスウィング", "Brutal Swing", 40, 1, 0, "", "Lacher/Lacher02_Brutal Swing.png", "Q7POyeSiOqI"),
+      new Active("スケアチェイス", "Scare Chase", 114, 2, 0, "", "Lacher/Lacher03_Scare Chase.png", "9kdbSYfs_Wk"),
+      new Active("ディトネイション", "Detonation", 63, 1, 0, "", "Lacher/Lacher05_Detonation.png", "xN_p_XwKp0s"),
+      new Active("ギガンティックインパクト", "Gigantic Impact", 120, 2, 0, "", "Lacher/Lacher06_Gigantic Impact.png", "72WveKad6aQ"),
+      new Active("アケルダマ", "Aceldama", 184, 1, 0, "", "Lacher/Lacher07_Aceldama.png", "6tXG9DB_gR0"),
 	  ]),
 
 	  new Job("シューティングガーディアン/デッドリーチェイサー", "dc", "Lacher/DeadlyChaser.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Lacher/icon", "url"),
-			new Active("デュアルバスター", "Dual Buster", "Lacher/Lacher08_Dual Buster.png"),
-			new Active("ヘビーレールガン", "Heavy Railgun", "Lacher/Lacher09_Heavy Railgun.png"),
+			new Active("デュアルバスター", "Dual Buster", 29, 1, 0, "", "Lacher/Lacher08_Dual Buster.png", "SPry4TFtiNo"),
+			new Active("ヘビーレールガン", "Heavy Railgun", 29, 0, 0, "", "Lacher/Lacher09_Heavy Railgun.png", "CO-kKJtEFKU"),
 			new Active("シューティングスター(累計)", "Shooting Star", "Lacher/Lacher12_Shooting Star.png"),
 			new Active("(2回目の暗転)", "Shooting Star", "Lacher/Lacher12_Shooting Star.png"),
 			new Active("アーティラリーストライク－クァンタムバリスタ", "Artillery Strike - Quantum Ballista", "Lacher/Lacher14a_Artillery Strike.png"),
@@ -38,7 +38,8 @@ var Lacher = function () {
 			new Active("ワンダーウォール", "Wonder Wall", "Lacher/Lacher22_Wonder Wall.png"),
 			new Active("ランドデモリッシャー－ヘビーアームズ", "Land Demolisher - Heavy Arms", "Lacher/Lacher21_Land Demolisher.png"),
 			new Active("ランドデモリッシャー－アースクエイク", "Land Demolisher – Earthquake", "Lacher/Lacher21a_Land Demolisher.png"),
-			new Active("ドゥームストライク", "Doom Strike", "Lacher/LacherHA02_Doom Strike.png"),
+			new Active("ドゥームストライク", "Doom Strike", 131, 1, 0, "2回暗転スキル", "Lacher/LacherHA02_Doom Strike.png", ""),
+			new Active("(2回目の暗転)", "Doom Strike", 242, 2, 96, "猶予89F", "Lacher/LacherHA02_Doom Strike.png", ""),
 	  ]),
 
 	  new Job("シェリングガーディアン/タクティカルトルーパー", "tt", "Lacher/TacticalTrooper.png", [

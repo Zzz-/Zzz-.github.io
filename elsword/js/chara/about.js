@@ -9,6 +9,10 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "", [
+	    new Active("フェイトスペース", "Fate Space", 60, 1, 0, "", "Aisha/AishaHA03_Fate Space.png", "w5MLlXdKX2g"),
+	    new Active("ドゥームストライク", "Doom Strike", 131, 1, 0, "2回暗転スキル", "Lacher/LacherHA02_Doom Strike.png", ""),
+	    new Active("(2回目の暗転)", "Doom Strike", 242, 2, 96, "猶予89F", "Lacher/LacherHA02_Doom Strike.png", ""),
+	    new Active("ラシェのデータ", "Lacher", 0, -1, 0, "9件更新", "Lacher/Lacher.png"),
 	    new Active("エレメンタルストーム", "Elemental Storm", 89, 1, 0, "", "Aisha/AishaHA01_Elemental Storm.png", "cLfsXFCwPBo"),
 	    new Active("覇気天衝－千手華", "Thousand Blossoms", 96, 1, 0, "", "Ara/AraHA01_Thousand Blossoms.png", "huS3buJR31M"),
 	    new Active("レナのデータ", "Rena", 0, -1, 0, "26件更新", "Rena/Rena.png"),

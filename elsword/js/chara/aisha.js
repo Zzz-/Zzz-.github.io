@@ -49,7 +49,7 @@ var Aisha = function () {
 			new Active("インパクトハンマー", "Impact Hammer", 87, 2, 0, "", "Aisha/Aisha27_Impact Hammer.png", "T7vfwFqiFwA"),
 			new Active("スクリュードライバー―トルネード", "Screw Driver – Tornado", 119, 2, 9, "", "Aisha/Aisha28_Screw Driver.png", "dMTyV6I-UnM"),
 			new Active("スクリュードライバー―ドリラー", "Screw Driver – Driller", 119, 2, 25, "", "Aisha/Aisha28a_Screw Driver.png", "IvJU333saMk"),
-			new Active("フェイトスペース", "Fate Space", "Aisha/AishaHA03_Fate Space.png"),
+			new Active("フェイトスペース", "Fate Space", 60, 1, 0, "", "Aisha/AishaHA03_Fate Space.png", "w5MLlXdKX2g"),
 	  ]),
 	  
 	];
