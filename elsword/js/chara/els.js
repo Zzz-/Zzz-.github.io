@@ -24,7 +24,7 @@ var Els = function () {
 	    new Active("スプラッシュエクスプロージョン", "Splash Explosion", "Els/Els13_Splash Explosion.png"),
 	    new Active("ストームブレード", "Storm Blade", "Els/Els11_Storm Blade.png"),
 	    new Active("ルナブレード", "Luna Blade", "Els/Els14_Luna Blade.png"),
-	    new Active("シャイニングルーンバスター", "Shining Rune Buster", 67, 1, 0, "動画募集中", "Els/ElsHA01_Shining Rune Buster.png", ""),
+	    new Active("シャイニングルーンバスター", "Shining Rune Buster", 67, 1, 0, "", "Els/ElsHA01_Shining Rune Buster.png", "GCm6AJhLnuY"),
 	  ]),
 
 	  new Job("ソードナイト/ロードナイト", "lk", "Els/LordKnight.png", [
@@ -36,7 +36,7 @@ var Els = function () {
 	    new Active("ソニックブレイド", "Sonic Blade", "Els/Els20_Sonic Blade.png"),
 	    new Active("ウインドミル", "Windmill", 37, 1, 0, "", "Els/Els17_Windmill.png", "X458x86g8p8"),
 	    new Active("サンドストーム", "Sandstorm", 61, 1, 1, "", "Els/Els21_Sandstorm.png", "LjlqaNtv6go"),
-	    new Active("ギガンティックスラッシュ", "Gigantic Slash", "Els/ElsHA02_Gigantic Slash.png"),	
+	    new Active("ギガンティックスラッシュ", "Gigantic Slash", 42, 1, 0, "", "Els/ElsHA02_Gigantic Slash.png", "adBxI1s8-ns"),
 	  ]),
 
 	  new Job("シースナイト/インフィニティソード", "is", "Els/InfinitySword.png", [
@@ -48,7 +48,7 @@ var Els = function () {
 			new Active("ソードブラスティング", "Sword Blasting", "Els/Els27_Sword Blasting.png"),
 			new Active("レイジカッター", "Rage Cutter", "Els/Els28_Rage Cutter.png"),
 			new Active("メイルストームレイジ", "Maelstrom Rage", "Els/Els24_Maelstrom Rage.png"),
-			new Active("ブレードレイン", "Blade Rain", "Els/ElsHA03_Blade Rain.png"),
+			new Active("ブレードレイン", "Blade Rain", 148, 1, 0, "", "Els/ElsHA03_Blade Rain.png", "5Ob1WgqOYFc"),
 	  ]),
 	  
 	];

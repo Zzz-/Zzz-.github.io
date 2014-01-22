@@ -9,9 +9,13 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "", [
+	    new Active("シャイニングルーンバスター", "Shining Rune Buster", 67, 1, 0, "", "Els/ElsHA01_Shining Rune Buster.png", "GCm6AJhLnuY"),
+	    new Active("ギガンティックスラッシュ", "Gigantic Slash", 42, 1, 0, "", "Els/ElsHA02_Gigantic Slash.png", "adBxI1s8-ns"),
+			new Active("ブレードレイン", "Blade Rain", 148, 1, 0, "", "Els/ElsHA03_Blade Rain.png", "5Ob1WgqOYFc"),
+			new Active("ドゥームストライク", "Doom Strike", 134, 1, 0, "2回暗転スキル", "Lacher/LacherHA02_Doom Strike.png", "aT0w3JcJFLQ"),
+			new Active("(2回目の暗転)", "Doom Strike", 241, 2, 114, "猶予98F", "Lacher/LacherHA02_Doom Strike.png", ""),
+	    new Active("サテライトレイン", "Satellite Rain", 107, 0, 0, "", "Lacher/LacherHA03_Satellite Rain.png", "YHeyx4eQMr4"),
 	    new Active("フェイトスペース", "Fate Space", 60, 1, 0, "", "Aisha/AishaHA03_Fate Space.png", "w5MLlXdKX2g"),
-	    new Active("ドゥームストライク", "Doom Strike", 131, 1, 0, "2回暗転スキル", "Lacher/LacherHA02_Doom Strike.png", ""),
-	    new Active("(2回目の暗転)", "Doom Strike", 242, 2, 96, "猶予89F", "Lacher/LacherHA02_Doom Strike.png", ""),
 	    new Active("ラシェのデータ", "Lacher", 0, -1, 0, "9件更新", "Lacher/Lacher.png"),
 	    new Active("エレメンタルストーム", "Elemental Storm", 89, 1, 0, "", "Aisha/AishaHA01_Elemental Storm.png", "cLfsXFCwPBo"),
 	    new Active("覇気天衝－千手華", "Thousand Blossoms", 96, 1, 0, "", "Ara/AraHA01_Thousand Blossoms.png", "huS3buJR31M"),

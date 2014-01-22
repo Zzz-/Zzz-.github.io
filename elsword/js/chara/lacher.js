@@ -38,8 +38,8 @@ var Lacher = function () {
 			new Active("ワンダーウォール", "Wonder Wall", "Lacher/Lacher22_Wonder Wall.png"),
 			new Active("ランドデモリッシャー－ヘビーアームズ", "Land Demolisher - Heavy Arms", "Lacher/Lacher21_Land Demolisher.png"),
 			new Active("ランドデモリッシャー－アースクエイク", "Land Demolisher – Earthquake", "Lacher/Lacher21a_Land Demolisher.png"),
-			new Active("ドゥームストライク", "Doom Strike", 131, 1, 0, "2回暗転スキル", "Lacher/LacherHA02_Doom Strike.png", ""),
-			new Active("(2回目の暗転)", "Doom Strike", 242, 2, 96, "猶予89F", "Lacher/LacherHA02_Doom Strike.png", ""),
+			new Active("ドゥームストライク", "Doom Strike", 134, 1, 0, "2回暗転スキル", "Lacher/LacherHA02_Doom Strike.png", "aT0w3JcJFLQ"),
+			new Active("(2回目の暗転)", "Doom Strike", 241, 2, 114, "猶予98F", "Lacher/LacherHA02_Doom Strike.png", ""),
 	  ]),
 
 	  new Job("シェリングガーディアン/タクティカルトルーパー", "tt", "Lacher/TacticalTrooper.png", [
@@ -53,7 +53,7 @@ var Lacher = function () {
 			new Active("ワンダーウォール", "Wonder Wall", "Lacher/Lacher22_Wonder Wall.png"),
 			new Active("ドレッドチェイス", "Dread Chase", "Lacher/Lacher23_Dread Chase.png"),
 			new Active("アーティラリーストライク－アートシャワー", "Artillery Strike - Missile Shower", "Lacher/Lacher14_Artillery Strike.png"),
-			new Active("サテライトレイン", "Satellite Rain", "Lacher/LacherHA03_Satellite Rain.png"),
+			new Active("サテライトレイン", "Satellite Rain", 107, 0, 0, "", "Lacher/LacherHA03_Satellite Rain.png", "YHeyx4eQMr4"),
 	  ]),
 	  
 	];
