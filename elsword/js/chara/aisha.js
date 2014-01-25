@@ -20,9 +20,9 @@ var Aisha = function () {
 			new Active("ブレイズステップ", "Blaze Step", "Aisha/Aisha12_Blaze Step.png"),
 			new Active("ブリザードシャワー", "Blizzard Shower", "Aisha/Aisha10_Blizzard Shower.png"),
 			new Active("チェインバースト", "Chain Burst", "Aisha/Aisha08_Chain Burst.png"),
-			new Active("ウォーターキャノン", "Water Cannon", "Aisha/Aisha31_Water Cannon.png"),
+			new Active("ウォーターキャノン", "Water Cannon", 61, 1, 0, "", "Aisha/Aisha31_Water Cannon.png", "FCGUR4F1ztk"),
 			new Active("メテオシャワー", "Meteor Shower", "Aisha/Aisha14_Meteor Shower.png"),
-			new Active("ライトニングシャワー", "Lightning Shower", "Aisha/Aisha32_Lightning Shower.png"),
+			new Active("ライトニングシャワー", "Lightning Shower", 60, 1, 0, "", "Aisha/Aisha32_Lightning Shower.png", "ipHyIAyLewM"),
 			new Active("エレメンタルストーム", "Elemental Storm", 89, 1, 0, "", "Aisha/AishaHA01_Elemental Storm.png", "cLfsXFCwPBo"),
 	  ]),
 

@@ -5,7 +5,7 @@ var Eve = function () {
 	  new Job("イヴ", "eve", "Eve/Eve.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Eve/icon", "url"),
       new Active("覚醒", "Awaking", "00_awaking.png"),
-      new Active("ディメンションリンク－ブレーダー", "Dimension Link – Blader", "Eve/Eve05_Dimension Link Blader.png"),
+      new Active("ディメンションリンク－ブレーダー", "Dimension Link – Blader", 103, 1, 10, "", "Eve/Eve05_Dimension Link Blader.png", "EKigrq6oP3Q"),
       new Active("ディメンションリンク－セントリー", "Dimension Link – Sentry", "Eve/Eve03_Dimension Link.png"),
       new Active("イリュージョンストライク", "Illusion Strike", "Eve/Eve02_Illusion Strike.png"),
       new Active("イリュージョンスティンガー", "Illusion Stinger", "Eve/Eve04_Illusion Stinger.png"),
