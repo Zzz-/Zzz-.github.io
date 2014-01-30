@@ -9,6 +9,11 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("狼牙四式:狼の牙", "Wolf Stance 4: Wolf Fang", 45, 1, 0, "", "Ara/Ara16_Wolf Fang.png", "1wORdpyUR6E"),
+	    new Active("連環獄", "Infernal Circle", 45, 1, 0, "", "Ara/Ara17_Infernal Circle.png", "GWftp2Mx1u8"),
+	    new Active("狼牙奥義:極砕", "Secret Wolf Arts: Killing Howl", 80, 1, 0, "連携中の暗転は全て途切れる", "Ara/AraEx03_Killing Howl.png", "MoqFc-V2rE4"),
+	    new Active("アサルトスピア－バスター", "Assault Spear – Burster", 154, 2, 12, "", "Eve/Eve21_Assault Spear.png", "t8Vqj9RJTYE"),
+	    new Active("アサルトスピア－バスター(覚醒)", "Assault Spear – Burster (Awake)", 154, 2, 0, "硬直が40F増える", "Eve/Eve21_Assault Spear.png", "4-OnUS8XbDc"),
 	    new Active("羅刹一式:吸魂", "Rakshasa Stance 1:Finger Bullet", 30, 0, 0, "", "Ara/Ara15_Finger Bullet.png", "SgCW50Y3HDQ"),
 	    new Active("ブレイズステップ", "Blaze Step", 60, 1, 0, "", "Aisha/Aisha12_Blaze Step.png", "mxoNISvfug0"),
 	    new Active("ライトニングシャワー", "Lightning Shower", 59, 1, 0, "", "Aisha/Aisha32_Lightning Shower.png", "OEryv5HrmGE"),

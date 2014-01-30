@@ -32,11 +32,11 @@ var Ara = function () {
 	  new Job("小魔", "ld", "Ara/LittleDevil.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Ara/icon", "url"),
       new Active("羅刹一式:吸魂", "Rakshasa Stance 1:Finger Bullet", 30, 0, 0, "", "Ara/Ara15_Finger Bullet.png", "SgCW50Y3HDQ"),
-      new Active("狼牙四式:狼の牙", "Wolf Stance 4: Wolf Fang", "Ara/Ara16_Wolf Fang.png"),
-      new Active("連環獄", "Infernal Circle", "Ara/Ara17_Infernal Circle.png"),
+      new Active("狼牙四式:狼の牙", "Wolf Stance 4: Wolf Fang", 45, 1, 0, "", "Ara/Ara16_Wolf Fang.png", "1wORdpyUR6E"),
+      new Active("連環獄", "Infernal Circle", 45, 1, 0, "", "Ara/Ara17_Infernal Circle.png", "GWftp2Mx1u8"),
       new Active("羅刹三式:槍刹監獄", "Rakshasa Stance 3: Spear Prison", "Ara/Ara18_Spear Prison.png"),
       new Active("氣功波", "Energy Wave", "Ara/Ara19_Energy Wave.png"),
-      new Active("狼牙奥義:極砕", "Secret Wolf Arts: Killing Howl", "Ara/AraEx03_Killing Howl.png"),
+      new Active("狼牙奥義:極砕", "Secret Wolf Arts: Killing Howl", 80, 1, 0, "連携中の暗転は全て途切れる", "Ara/AraEx03_Killing Howl.png", "MoqFc-V2rE4"),
 	  ]),
 	];
 };
