@@ -36,8 +36,8 @@ Active.prototype = {
 	getTimeFPS : function(fps){
 		if(typeof(this.frame) != 'number') return "";
 		var num = this.frame/fps;
-		num = Math.round(num*100) / 100;
-		return num + "s";
+//		num = Math.round(num*100) / 100;
+		return num.toFixed(2) + "s";
 	},
 
 	getTime : function(){
