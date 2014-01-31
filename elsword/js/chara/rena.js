@@ -23,7 +23,7 @@ var Rena = function () {
       new Active("シャープフォール", "Sharp Fall", 60, 2, 0, "低空時のデータ", "Rena/Rena10_Sharp Fall.png", "NgBll2dKzDQ"),
       new Active("アイレリンナ－ニンフ", "Arielinna – Nymph", 42, -1, 0, "", "Rena/Rena14_Airelinna.png", "rXvsupWvQNA"),
       new Active("アイレリンナ－シルフ", "Arielinna – Sylph", 41, -1, 0, "", "Rena/Rena14a_Airelinna.png", "QHqjWaJJkpg"),
-      new Active("スパイラルストライク", "Spiral Strike", "Rena/RenaHA01_Spiral Strike.png"),
+      new Active("スパイラルストライク", "Spiral Strike", 0, -1, 0, "動画募集中！", "Rena/RenaHA01_Spiral Strike.png"),
 	  ]),
 
 	  new Job("スナイピングレンジャー/グランドアーチャー", "ga", "Rena/GrandArcher.png", [
