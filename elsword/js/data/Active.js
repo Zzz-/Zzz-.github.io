@@ -101,7 +101,10 @@ Active.prototype = {
 		targetRow.id = this.id;
 		for (var i = 0; i < newrow.length; i++){
 			var targetCell = targetRow.insertCell(-1);
-			if(i == 0) targetCell.align = "center";
+			if(i == 0){
+				targetCell.align = "center";
+				targetCell.width = "32";
+			}
 			targetCell.innerHTML = newrow[i];
 		}
 	},
