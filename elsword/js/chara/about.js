@@ -9,6 +9,11 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("レイヴンのデータ", "Raven", 0, -1, 0, "15個更新", "Raven/Raven.png"),
+	    new Active("覚醒(イヴ)", "Awaking", 89, -1, 31, "", "00_awaking.png", "05Lf8xf-Kis"),
+	    new Active("アトミックシールド", "Atomic Shield", 139, -1, 29, "", "Eve/Eve14_Atomic Shield.png", "GFlvouh_gsA"),
+	    new Active("サウザンドスター", "Thousand Star", 148, 2, 43, "HITは使用時ののけぞり", "Eve/Eve25_Thousand Star.png", "5XgVx5kzqnA"),
+	    new Active("エナジェティックハート", "Energetic Heart", 132, -1, 20, "", "Eve/Eve28_Energetic Heart.png", "1877O2ju2qQ"),
 	    new Active("エルスのデータ", "Els", 0, -1, 0, "更新完了", "Els/Els.png"),
 	    new Active("アラのデータ", "Ara", 0, -1, 0, "15個更新", "Ara/Ara.png"),
 	    new Active("アイシャのデータ", "Aisha", 0, -1, 0, "残り1つ以外更新", "Aisha/Aisha.png"),

@@ -4,7 +4,7 @@ var Eve = function () {
 	this.jobs = [
 	  new Job("イヴ", "eve", "Eve/Eve.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Eve/icon", "url"),
-      new Active("覚醒", "Awaking", "00_awaking.png"),
+      new Active("覚醒", "Awaking", 89, -1, 31, "", "00_awaking.png", "05Lf8xf-Kis"),
       new Active("ディメンションリンク－ブレーダー", "Dimension Link – Blader", 103, 1, 10, "", "Eve/Eve05_Dimension Link Blader.png", "EKigrq6oP3Q"),
       new Active("ディメンションリンク－セントリー", "Dimension Link – Sentry", "Eve/Eve03_Dimension Link.png"),
       new Active("イリュージョンストライク", "Illusion Strike", "Eve/Eve02_Illusion Strike.png"),
@@ -22,7 +22,7 @@ var Eve = function () {
 	    new Active("ジャンクブレイク", "Junk Break", "Eve/Eve12_Junk Break.png"),
 	    new Active("アトミックブラスター－プラズマ", "Atomic Blaster - Plasma Gun", "Eve/Eve13_Atomic Blaster.png"),
 	    new Active("アトミックブラスター－ソニック", "Atomic Blaster - Sonic Gun", "Eve/Eve13a_Atomic Blaster.png"),
-	    new Active("アトミックシールド", "Atomic Shield", "Eve/Eve14_Atomic Shield.png"),
+	    new Active("アトミックシールド", "Atomic Shield", 139, -1, 29, "", "Eve/Eve14_Atomic Shield.png", "GFlvouh_gsA"),
 	    new Active("アイアンスクラップス", "Iron Scraps", "Eve/Eve10_Iron Scraps.png"),
 	    new Active("アサルトスピア－ジャッジメント", "Assault Spear – Judgement", "Eve/Eve21a_Assault Spear.png"),
 	    new Active("ルナティックスカッド", "Lunatic Scud", 179, 1, 0, "ナソードスピアの時", "Eve/EveHA01_Lunatic Scud.png", "85dr9np_k5I"),
@@ -51,8 +51,8 @@ var Eve = function () {
 			new Active("リニアディバイダー", "Linear Divider", 55, 0, 0, "", "Eve/Eve29_Linear Divider.png", "rf89CZM5mE8"),
 			new Active("ギガストリーム", "Giga Stream", "Eve/Eve26_Giga Stream.png"),
 			new Active("エネルギーニードル", "Energy Needles", "Eve/Eve27_Energy Needles.png"),
-			new Active("サウザンドスター", "Thousand Star", "Eve/Eve25_Thousand Star.png"),
-			new Active("エナジェティックハート", "Energetic Heart", "Eve/Eve28_Energetic Heart.png"),
+			new Active("サウザンドスター", "Thousand Star", 148, 2, 43, "HITは使用時ののけぞり", "Eve/Eve25_Thousand Star.png", "5XgVx5kzqnA"),
+			new Active("エナジェティックハート", "Energetic Heart", 132, -1, 20, "", "Eve/Eve28_Energetic Heart.png", "1877O2ju2qQ"),
 			new Active("サイキックアーティラリー", "Psychic Artillery", 31, 0, 0, "停止前153F(2.54s)", "Eve/EveHA03_Psychic Artillery.png", "2X_6maVCG-A"),
 	  ]),
 	  
