@@ -19,7 +19,7 @@ Job.prototype = {
 	},
 	loadData : function(){
 		var tableRef = document.getElementById(this.id);
-		var newrow = ["", "名前", "時間", "フレーム", "HIT", "有利F", "補足"];
+		var newrow = ["", "名前", "時間", "F", "HIT", "有利F", "補足"];
 		var targetRow = tableRef.insertRow(-1);
 		targetRow.className = "headrow";
 		for (var i = 0; i < newrow.length; i++){
