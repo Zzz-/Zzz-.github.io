@@ -4,11 +4,13 @@ var About = function () {
 	this.jobs = [
 	  new Job("エルス", "sample", "Els/Els.png", [
 	    new Active("覚醒", "Awaking", 78, -1, 19, "", "00_awaking.png", "HKFSOAyyNuM"),
-	    new Active("フレイムガイザー", "FlameGeyser", "Els/Els04_Flame Geyser.png"),
-	    new Active("フェータルフューリー", "FatalFury", 37, 1, 0, "", "Els/Els03_Fatal Fury.png", "awiQ-odE2HE"),
+	    new Active("フレイムガイザー", "Flame Geyser", 41, 1, 0, "", "Els/Els04_Flame Geyser.png", "4pJIh7C-63o"),
+	    new Active("フェータルフューリー", "Fatal Fury", 37, 1, 0, "", "Els/Els03_Fatal Fury.png", "awiQ-odE2HE"),
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("エルスのデータ", "Els", 0, -1, 0, "更新完了", "Els/Els.png"),
+	    new Active("アラのデータ", "Ara", 0, -1, 0, "15個更新", "Ara/Ara.png"),
 	    new Active("アイシャのデータ", "Aisha", 0, -1, 0, "残り1つ以外更新", "Aisha/Aisha.png"),
 	    new Active("狼牙四式:狼の牙", "Wolf Stance 4: Wolf Fang", 45, 1, 0, "", "Ara/Ara16_Wolf Fang.png", "1wORdpyUR6E"),
 	    new Active("連環獄", "Infernal Circle", 45, 1, 0, "", "Ara/Ara17_Infernal Circle.png", "GWftp2Mx1u8"),

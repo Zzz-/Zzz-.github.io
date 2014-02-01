@@ -1,10 +1,12 @@
 body {
+	color:#fff;
 	background: #555;
 }
 
 table {
 	border:2px;
 	border-collapse: collapse;
+	color:#000;
 }
 
 .header{
