@@ -9,8 +9,8 @@ var Ara = function () {
 	    new Active("狼牙二式:風のくさび", "Wolf Stance 2: Wind Wedge", 56, 1, 0, "", "Ara/Ara02_Wind Wedge.png", "-QhkORXOkLo"),
 	    new Active("龍牙二式－穿衣", "Dragon Stance 2: Pulling Pierce", 30, 0, 0, "", "Ara/Ara03_Pulling Pierce.png", "wJ9OeheWNjo"),
 	    new Active("影つぼみ", "Shadow Rising", 77, 2, 15, "", "Ara/Ara05_Shadow Rising.png", "KoTDnAE4wdE"),
-	    new Active("鬼殺三式:影繋ぎ", "Exorcism 3: Shadow Knot", "Ara/Ara06_Shadow Knot.png"),
-	    new Active("(2回目の暗転)", "Exorcism 3: Shadow Knot", "Ara/Ara06_Shadow Knot.png"),
+	    new Active("鬼殺三式:影繋ぎ", "Exorcism 3: Shadow Knot", 78, 1, 0, "2回暗転スキル", "Ara/Ara06_Shadow Knot.png", "Bu87tiv3kcc"),
+	    new Active("(2回目の暗転)", "Exorcism 3: Shadow Knot", 98, 2, 1, "1Fだけ暗転無し", "Ara/Ara06_Shadow Knot.png", ""),
 	    new Active("龍撃破", "Falling Dragon", 100, 2, 0, "", "Ara/Ara07_Falling Dragon.png", "qe2toy07LBE"),
 	  ]),
 
