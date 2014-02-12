@@ -29,7 +29,7 @@ var Ara = function () {
 	    new Active("覇気天衝－千手華", "Heaven's Rage - Thousand Blossoms", 96, 1, 0, "", "Ara/AraHA01_Thousand Blossoms.png", "huS3buJR31M"),
 	  ]),
 
-	  new Job("小魔", "ld", "Ara/LittleDevil.png", [
+	  new Job("小魔/冥王", "yr", "Ara/YamaRaja.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Ara/icon", "url"),
       new Active("羅刹一式:吸魂", "Rakshasa Stance 1:Finger Bullet", 30, 0, 0, "", "Ara/Ara15_Finger Bullet.png", "SgCW50Y3HDQ"),
       new Active("狼牙四式:狼の牙", "Wolf Stance 4: Wolf Fang", 45, 1, 0, "", "Ara/Ara16_Wolf Fang.png", "1wORdpyUR6E"),
@@ -37,6 +37,12 @@ var Ara = function () {
       new Active("羅刹三式:槍刹監獄", "Rakshasa Stance 3: Spear Prison", 71, 1, 0, "", "Ara/Ara18_Spear Prison.png", "0y4emcLOcHM"),
       new Active("氣功波", "Energy Wave", 0, -1, 0, "動画募集中！", "Ara/Ara19_Energy Wave.png", ""),
       new Active("狼牙奥義:極砕", "Secret Wolf Arts: Killing Howl", 80, 1, 0, "連携中の暗転は全て途切れる", "Ara/AraEx03_Killing Howl.png", "MoqFc-V2rE4"),
+      new Active("羅刹ニ式:連環掌", "Rakshasa Stance 2: Energy Burst", "Ara/Ara20_Energy Bead.png"),
+      new Active("羅刹四式:奪命", "Rakshasa Stance 4: Soul Escape", "Ara/Ara21_Soul Escape.png"),
+      new Active("制圧:気", "Suppression Energy", "Ara/Ara22_Suppression Energy.png"),
+      new Active("超真空掌", "Energy Void", "Ara/Ara23_Energy Void.png"),
+      new Active("羅刹奥義:煉獄", "Secret Rakshasa Arts: Purgatory", "Ara/AraEx04_Purgatory.png"),
+      new Active("地獄道", "Energy Cannon", "Ara/AraHA02_Energy Cannon.png"),
 	  ]),
 	];
 };
