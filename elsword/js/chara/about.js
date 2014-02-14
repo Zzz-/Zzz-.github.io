@@ -9,6 +9,7 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("氣功波", "Energy Wave", 90, 1, 0, "", "Ara/Ara19_Energy Wave.png", "8ELFq7cCRVs"),
 	    new Active("鬼殺三式:影繋ぎ", "Exorcism 3: Shadow Knot", 78, 1, 0, "2回暗転スキル", "Ara/Ara06_Shadow Knot.png", "Bu87tiv3kcc"),
 	    new Active("(2回目の暗転)", "Exorcism 3: Shadow Knot", 98, 2, 1, "1Fだけ暗転無し", "Ara/Ara06_Shadow Knot.png", ""),
 	    new Active("羅刹三式:槍刹監獄", "Rakshasa Stance 3: Spear Prison", 71, 1, 0, "", "Ara/Ara18_Spear Prison.png", "0y4emcLOcHM"),
