@@ -77,6 +77,11 @@ Active.prototype = {
 			return '<img class="_dataimg" src="'+this.getIcon()+'" width=32 height=32>';
 	},
 	
+	getIconCellLite : function(){
+		if(!this.icon) return "";
+			return '<img class="_dataimg" src="'+this.getIcon()+'" width=32 height=32>';
+	},
+	
 	getUrl : function(){
 		if(!this.enableUrl()) return "";
 		return "http://www.youtube.com/embed/" + this.url + "?rel=0";
@@ -126,7 +131,7 @@ Active.prototype = {
 		targetCell.innerHTML = this.getYoutubeCode();
 	},
 	toLiteRow : function(tableRef){
-		var newrow = [this.getIconCell(), this.name, this.getTime(),
+		var newrow = [this.getIconCellLite(), this.name, this.getTime(),
 		              this.frame, this.getHit(), this.adframe, this.tips, this.getUrlTd()];
 		var targetRow = tableRef.insertRow(-1);
 		targetRow.id = this.id;
