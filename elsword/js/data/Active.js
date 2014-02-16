@@ -86,6 +86,11 @@ Active.prototype = {
 		if(!this.enableUrl()) return "NODATA";
 		return '<iframe width="320" height="240" src="' + this.getUrl() + '" frameborder="0" allowfullscreen></iframe>';
 	},
+	
+	getUrlTd : function(){
+		if(!this.enableUrl()) return "－";
+		return '<a href="'+this.getUrl()+'">動画</a>';
+	},
 
 	td : function(str) {
 		return "<td>" + str + "</td>";
@@ -119,6 +124,20 @@ Active.prototype = {
 		targetCell.colSpan = colCount;
 		targetCell.align = "center";
 		targetCell.innerHTML = this.getYoutubeCode();
+	},
+	toLiteRow : function(tableRef){
+		var newrow = [this.getIconCell(), this.name, this.getTime(),
+		              this.frame, this.getHit(), this.adframe, this.tips, this.getUrlTd()];
+		var targetRow = tableRef.insertRow(-1);
+		targetRow.id = this.id;
+		for (var i = 0; i < newrow.length; i++){
+			var targetCell = targetRow.insertCell(-1);
+			if(i == 0){
+				targetCell.align = "center";
+				targetCell.width = "32";
+			}
+			targetCell.innerHTML = newrow[i];
+		}
 	}
 	
 };

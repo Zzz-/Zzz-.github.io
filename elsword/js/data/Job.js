@@ -30,5 +30,18 @@ Job.prototype = {
 			this.activeList[i].toRow(tableRef);
 			this.activeList[i].toMovieRow(tableRef);
 		}
+	},
+	loadLiteData : function(){
+		var tableRef = document.getElementById(this.id);
+		var newrow = ["", "名前", "時間", "F", "HIT", "有利F", "補足", "動画"];
+		var targetRow = tableRef.insertRow(-1);
+		targetRow.className = "headrow";
+		for (var i = 0; i < newrow.length; i++){
+			var targetCell = targetRow.insertCell(-1);
+			targetCell.innerHTML = newrow[i];
+		}
+		for (var i = 0; i < this.activeList.length; i++){
+			this.activeList[i].toLiteRow(tableRef);
+		}
 	}
 };
