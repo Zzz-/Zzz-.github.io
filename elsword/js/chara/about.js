@@ -9,6 +9,8 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("レナのデータ", "Rena", 0, -1, 0, "更新完了", "Rena/Rena.png"),
+	    new Active("スパイラルストライク", "Spiral Strike", 90, 1, 0, "最後の蹴りまで約8秒", "Rena/RenaHA01_Spiral Strike.png", "cCThnXfD2PM"),
 	    new Active("羅刹二式:連環掌", "Rakshasa Stance 2: Energy Burst", 44, 1, 2, "", "Ara/Ara20_Energy Burst.png", "I2O9yFvq95A"),
 	    new Active("羅刹四式:奪命", "Rakshasa Stance 4: Soul Escape", 55, 2, 3, "", "Ara/Ara21_Soul Escape.png", "la-XuRiWkNM"),
 	    new Active("羅刹奥義:煉獄(単体)", "Secret Rakshasa Arts: Purgatory", 107, 1, 12, "", "Ara/AraEx04_Purgatory.png", "ti3tKD5x9Po"),
