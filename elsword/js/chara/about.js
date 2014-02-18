@@ -9,6 +9,8 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("アイシャのデータ", "Aisha", 0, -1, 0, "更新完了", "Aisha/Aisha.png"),
+	    new Active("ファントムブリージング－ダークフォール", "Phantom Breathing - Dark Fall", 61, 2, 0, "", "Aisha/Aisha21_Phantom Breathing.png", "HAMPEAbK9k4"),
 	    new Active("レナのデータ", "Rena", 0, -1, 0, "更新完了", "Rena/Rena.png"),
 	    new Active("スパイラルストライク", "Spiral Strike", 90, 1, 0, "最後の蹴りまで約8秒", "Rena/RenaHA01_Spiral Strike.png", "cCThnXfD2PM"),
 	    new Active("羅刹二式:連環掌", "Rakshasa Stance 2: Energy Burst", 44, 1, 2, "", "Ara/Ara20_Energy Burst.png", "I2O9yFvq95A"),
@@ -22,8 +24,6 @@ var About = function () {
 	    new Active("イヴのデータ", "Eve", 0, -1, 0, "更新完了", "Eve/Eve.png"),
 	    new Active("レイヴンのデータ", "Raven", 0, -1, 0, "更新完了", "Raven/Raven.png"),
 	    new Active("エルスのデータ", "Els", 0, -1, 0, "更新完了", "Els/Els.png"),
-	    new Active("アラのデータ", "Ara", 0, -1, 0, "15個更新", "Ara/Ara.png"),
-	    new Active("アイシャのデータ", "Aisha", 0, -1, 0, "残り1つ以外更新", "Aisha/Aisha.png"),
 	    new Active("ラシェのデータ", "Lacher", 0, -1, 0, "更新完了", "Lacher/Lacher.png"),
 	  ]),
 	  

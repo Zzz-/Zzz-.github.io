@@ -50,8 +50,8 @@ var Raven = function () {
 			new Active("デッドリーレイド", "Deadly Raid", 109, 1, 0, "", "Raven/Raven27_Deadly Raid.png", "y4cirHj5LIU"),
 			new Active("イグニッションクロウ－ナパーム", "Ignition Crow – Napalm", 121, 2, 27, "", "Raven/Raven28a_Ignition Crow.png", "LMzQVpfCAjY"),
 			new Active("(オーバーヒート)", "Ignition Crow – Napalm (Over Heat)", 119, 2, 0, "", "Raven/Raven28a_Ignition Crow.png", "51ADY64iKH8"),
-			new Active("イグニッションクロウ－インシノレーション", "Ignition Crow – Incineration", 120, 0, 27, "", "Raven/Raven28_Ignition Crow.png", "bo0nRmQKkRE"),
-			new Active("(オーバーヒート)", "Ignition Crow – Incineration (Over Heat)", 121, 0, 0, "", "Raven/Raven28_Ignition Crow.png", "bkeIF1qAHGw"),
+			new Active("イグニッションクロウ－インシノレーション", "Ignition Crow – Incineration", 120, 0, 27, "", "Raven/Raven28_Ignition Crow.png", "or6AyOlcSvc"),
+			new Active("(オーバーヒート)", "Ignition Crow – Incineration (Over Heat)", 121, 0, 0, "", "Raven/Raven28_Ignition Crow.png", "EQu4r3fK0rg"),
 			new Active("バーニングバスター", "Burning Burster", 90, 1, 0, "", "Raven/RavenHA03_Burning Burster.png", "DD5VDfJFQo8"),
 	  ]),
 	  

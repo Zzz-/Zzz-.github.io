@@ -34,7 +34,7 @@ var Aisha = function () {
 			new Active("ヘルドロップ", "Hell Drop", 60, 0, 0, "", "Aisha/Aisha20_Hell Drop.png", "enhSu9zKai8"),
 			new Active("エイジング", "Aging", 114, 1, 8, "", "Aisha/Aisha18_Aging.png", "weIy1olQFOQ"),
 			new Active("プラズマカッター", "Plasma Cutter", 37, 1, 0, "暗転発生が遅い(19F)", "Aisha/Aisha19_Plasma Cutter.png", "WE_6-F1zoQY"),
-			new Active("ファントムブリージング－ダークフォール", "Phantom Breathing - Dark Fall", 0, -1, 0, "動画募集中！", "Aisha/Aisha21_Phantom Breathing.png"),
+			new Active("ファントムブリージング－ダークフォール", "Phantom Breathing - Dark Fall", 61, 2, 0, "", "Aisha/Aisha21_Phantom Breathing.png", "HAMPEAbK9k4"),
 			new Active("ファントムブリージング－ダークホール", "Phantom Breathing - Dark Hole", 61, 2, 0, "", "Aisha/Aisha21a_Phantom Breathing.png", "osH6n1nDCOE"),
 			new Active("アビスアンゴル", "Abyss Angkor", 132, 0, 0, "吸引開始まで", "Aisha/AishaHA02_Abyss Angkor.png", "IIAanrKtI8Q"),
 	  ]),
