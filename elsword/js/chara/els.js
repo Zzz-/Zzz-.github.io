@@ -24,7 +24,7 @@ var Els = function () {
 	    new Active("スプラッシュエクスプロージョン", "Splash Explosion", 37, 1, 0, "", "Els/Els13_Splash Explosion.png", "r5aSi2W7V2o"),
 	    new Active("ストームブレード", "Storm Blade", 37, 1, 0, "", "Els/Els11_Storm Blade.png", "3n3snQiqxdk"),
 	    new Active("ルナブレード", "Luna Blade", 84, 2, 0, "", "Els/Els14_Luna Blade.png", "pmWucRkQ9UQ"),
-	    new Active("シャイニングルーンバスター", "Shining Rune Buster", 67, 1, 0, "", "Els/ElsHA01_Shining Rune Buster.png", "GCm6AJhLnuY"),
+	    new Active("シャイニングルーンバスター", "Shining Rune Buster", 55, 1, 0, "", "Els/ElsHA01_Shining Rune Buster.png", "GCm6AJhLnuY"),
 	  ]),
 
 	  new Job("ソードナイト/ロードナイト", "lk", "Els/LordKnight.png", [

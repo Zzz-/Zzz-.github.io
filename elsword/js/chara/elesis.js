@@ -12,13 +12,12 @@ var Elesis = function () {
 	    new Active("メガスラッシュ", "Mega Slash", 60, 2, 0, "", "Elesis/Elesis05_Mega Slash.png", "f0A4jntoSZo"),
 	    new Active("アンリミテッドブレード", "Unlimited Blade", 39, 1, 0, "", "Elesis/Elesis06_Unlimited Blade.png", "96t_59vzZwk"),
 	    new Active("メガバスター", "Mega Burster", 84, 1, 0, "", "Elesis/Elesis07_Mega Burster.png", "DhfGhHdVGII"),
-
 	  ]),
 
 	  new Job("セイバーナイト", "sak", "Elesis/SaberKnight.png", [
 //	new Active("name", "id", frame, hit, adframe, "tips", "Elesis/icon", "url"),
 	    new Active("クロススラッシュ", "Cross Slash", 29, 1, 0, "", "Elesis/Elesis08_Cross Slash.png", "smT0E1x-k90"),
-	    new Active("スパイラルブラスト", "Spiral Blast", 0, 1, 0, "", "Elesis/Elesis09_Spiral Blast.png", "boe4LvysiZ4"),
+	    new Active("スパイラルブラスト", "Spiral Blast", 57, 1, 0, "", "Elesis/Elesis09_Spiral Blast.png", "boe4LvysiZ4"),
 	    new Active("セイバーエクスティンクション", "Saber – Extinction", 61, 2, 24, "チャージ完了音の時に暗転", "Elesis/Elesis10_Saber Extinction.png", "XA7NsbMvGzg"),
 	    new Active("ジャッジメントドライブ", "Sword of Judgement", 51, 2, 0, "2回暗転スキル", "Elesis/Elesis11_Sword of Judgement.png", "LIxQt-8XlrA"),
 	    new Active("(2回目の暗転)", "Sword of Judgement", 108, 2, 0, "合間17F", "Elesis/Elesis11_Sword of Judgement.png"),
