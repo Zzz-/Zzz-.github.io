@@ -23,7 +23,7 @@ var Tips = function () {
 	    new Active("(2回目の暗転)", "Doom Strike", 241, 2, 114, "合間98F", "Lacher/LacherHA02_Doom Strike.png", ""),
 	    new Active("サテライトレイン", "Satellite Rain", 107, 0, 0, "", "Lacher/LacherHA03_Satellite Rain.png", "YHeyx4eQMr4"),
 	    new Active("覇気天衝－千手華", "Heaven's Rage - Thousand Blossoms", 96, 1, 0, "", "Ara/AraHA01_Thousand Blossoms.png", "huS3buJR31M"),
-	    new Active("地獄道", "Energy Cannon", "Ara/AraHA02_Energy Cannon.png"),
+	    new Active("地獄道", "Energy Cannon", 72, 0, 0, "", "Ara/AraHA02_Energy Cannon.png", "lhxKsoe1f80"),
 	  ]),
 
 	  new Job("暗転の長いスキル(HA除く)", "top2s", "", [

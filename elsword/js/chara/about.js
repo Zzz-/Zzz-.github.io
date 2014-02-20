@@ -9,6 +9,7 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+      new Active("地獄道", "Energy Cannon", 72, 0, 0, "", "Ara/AraHA02_Energy Cannon.png", "lhxKsoe1f80"),
 	    new Active("アイシャのデータ", "Aisha", 0, -1, 0, "更新完了", "Aisha/Aisha.png"),
 	    new Active("ファントムブリージング－ダークフォール", "Phantom Breathing - Dark Fall", 61, 2, 0, "", "Aisha/Aisha21_Phantom Breathing.png", "HAMPEAbK9k4"),
 	    new Active("レナのデータ", "Rena", 0, -1, 0, "更新完了", "Rena/Rena.png"),

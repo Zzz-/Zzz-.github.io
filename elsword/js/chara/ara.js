@@ -43,7 +43,7 @@ var Ara = function () {
       new Active("超真空掌", "Energy Void", "Ara/Ara23_Energy Void.png"),
       new Active("羅刹奥義:煉獄(単体)", "Secret Rakshasa Arts: Purgatory", 107, 1, 12, "", "Ara/AraEx04_Purgatory.png", "ti3tKD5x9Po"),
       new Active("羅刹奥義:煉獄(合計)", "Secret Rakshasa Arts: Purgatory (all)", 145, 1, 12, "奪命との合計", "Ara/AraEx04_Purgatory.png", ""),
-      new Active("地獄道", "Energy Cannon", "Ara/AraHA02_Energy Cannon.png"),
+      new Active("地獄道", "Energy Cannon", 72, 0, 0, "", "Ara/AraHA02_Energy Cannon.png", "lhxKsoe1f80"),
 	  ]),
 	];
 };
