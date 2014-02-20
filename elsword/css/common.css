@@ -50,6 +50,8 @@ table {
 }
 
 .acbtn {
+	color: #5e5e5e;
+	background: #ddd;
 	width:680px;
 	padding:3px 0 3px 10px;
 	font-size: 1.2em;
