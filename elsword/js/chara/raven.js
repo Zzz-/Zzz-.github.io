@@ -15,7 +15,7 @@ var Raven = function () {
 	  new Job("オーバーテイカー/レックレスフィスト", "rf", "Raven/RecklessFist.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Raven/icon", "url"),
 			new Active("ヴァルキリーズジャベリン", "Valkyrie's Javelin", 60, 1, 0, "", "Raven/Raven10_Valkyries Javelin.png", "u-KKiG5L0jw"),
-			new Active("チャージドボルト―ヘッジホッグ", "Charged Bolt – Hedgehog", 42, 1, 0, "", "Raven/Raven08_Charged Bolt.png", "4Dz8R65t5AI"),
+			new Active("チャージドボルト―ヘッジホッグ", "Charged Bolt – Hedgehog", 47, 1, 0, "", "Raven/Raven08_Charged Bolt.png", "4ARyYizc3lE"),
 			new Active("チャージドボルト―ブラッディソーンズ", "Charged Bolt - Bloody Thorns", 48, 2, 0, "", "Raven/Raven08a_Charged Bolt.png", "u6UD-Re-tw8"),
 			new Active("ガーディアンストライク", "Guardian Strike", 73, 1, 0, "", "Raven/Raven11_Guardian Strike.png", "4qJEwBWf_TM"),
 			new Active("ニュークリア", "Nuclear", 119, 1, 0, "", "Raven/Raven12_Nuclear.png", "rd-alTbjV08"),
