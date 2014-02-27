@@ -94,7 +94,7 @@ Active.prototype = {
 	
 	getUrlTd : function(){
 		if(!this.enableUrl()) return "－";
-		return '<a href="http://www.youtube.com/watch?v='+this.url+'">動画</a>';
+		return '<a href="http://www.youtube.com/watch?v='+this.url+'" class="movie">動画</a>';
 	},
 
 	td : function(str) {

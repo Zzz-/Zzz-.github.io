@@ -9,6 +9,11 @@ table {
 	color:#000;
 }
 
+A:link { color: #ffffff }   /* ƒŠƒ“ƒN */
+A:visited { color: #ffff00 }
+A.movie:link { color: #0000bb }
+A.movie:visited { color: #bb00bb }
+
 .header{
 	background-color: #333;
 }
@@ -22,9 +27,6 @@ table {
 	text-shadow: 0px 0px 1px #ffffff,
 	  0px 0px 4px #ffd700;
 }
-
-A:link { color: #bbbbff }   /* ƒŠƒ“ƒN */
-A:visited { color: #ffff00 }   /* ƒŠƒ“ƒN */
 
 .about {
 	width:auto;
