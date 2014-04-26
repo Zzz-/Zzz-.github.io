@@ -9,6 +9,9 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("クリティカルダイブ", "Critical Dive", 35, 1, 0, "", "Elesis/Elesis14_Critical Dive.png", "ervG1UqVJ5A"),
+	    new Active("スカルディックソード", "Scaldic Sword", 41, 1, 0, "", "Elesis/Elesis23_Scaldic Sword.png", "YxABFh7xhbo"),
+	    new Active("ファイアウォール", "Wall of Prominence ", 54, 2, 0, "", "Elesis/Elesis24_Wall of Prominence.png", "ys6IscwpkWE"),
 	    new Active("制圧:気", "Suppression Energy", 43, 0, 0, "", "Ara/Ara22_Suppression Energy.png", "4iOdP9-k_k0"),
 	    new Active("超真空掌", "Energy Void", 77, 1, 0, "", "Ara/Ara23_Energy Void.png", "S0aHFG5AqTY"),
 	    new Active("アラのデータ", "Ara", 0, -1, 0, "更新完了", "Ara/Ara.png"),
