@@ -9,6 +9,10 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("ソニックブレード", "Sonic Blade", 30, 1, 0, "", "Elesis/Elesis13_Sonic Blade.png", "AhKPyNzSm6Q"),
+	    new Active("ジャガーノートバスター", "Juggernaut Buster", 64, 1, 0, "", "Elesis/Elesis15_Juggernaut Buster.png", "ydza8y-imjQ"),
+	    new Active("ブレイズウィング", "Blaze Wing", 72, 1, 0, "", "Elesis/Elesis25_Blaze Wing.png", "67E1koEiyW0"),
+	    new Active("ブレイジングダンス", "Blazing Dance", 59, 1, 0, "", "Elesis/Elesis26_Blazing Dance.png", "oJxTe8lGMIc"),
 	    new Active("クリティカルダイブ", "Critical Dive", 35, 1, 0, "", "Elesis/Elesis14_Critical Dive.png", "ervG1UqVJ5A"),
 	    new Active("スカルディックソード", "Scaldic Sword", 41, 1, 0, "", "Elesis/Elesis23_Scaldic Sword.png", "YxABFh7xhbo"),
 	    new Active("ファイアウォール", "Wall of Prominence ", 54, 2, 0, "", "Elesis/Elesis24_Wall of Prominence.png", "ys6IscwpkWE"),
