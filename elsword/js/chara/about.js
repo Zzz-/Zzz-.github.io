@@ -9,6 +9,7 @@ var About = function () {
 	  ]),
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
+	    new Active("ウォープレリュード", "War Prelude", 41, 2, 0, "", "Elesis/Elesis16_War Prelude.png", "hnbSu7D9v2c"),
 	    new Active("ソニックブレード", "Sonic Blade", 30, 1, 0, "", "Elesis/Elesis13_Sonic Blade.png", "AhKPyNzSm6Q"),
 	    new Active("ジャガーノートバスター", "Juggernaut Buster", 64, 1, 0, "", "Elesis/Elesis15_Juggernaut Buster.png", "ydza8y-imjQ"),
 	    new Active("ブレイズウィング", "Blaze Wing", 72, 1, 0, "", "Elesis/Elesis25_Blaze Wing.png", "67E1koEiyW0"),
