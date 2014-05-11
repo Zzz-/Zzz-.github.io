@@ -41,7 +41,7 @@ var Elesis = function () {
 	    new Active("ファイアウォール", "Wall of Prominence ", 54, 2, 0, "", "Elesis/Elesis24_Wall of Prominence.png", "ys6IscwpkWE"),
 	    new Active("ブレイズウィング", "Blaze Wing", 72, 1, 0, "", "Elesis/Elesis25_Blaze Wing.png", "67E1koEiyW0"),
 	    new Active("ブレイジングダンス", "Blazing Dance", 59, 1, 0, "", "Elesis/Elesis26_Blazing Dance.png", "oJxTe8lGMIc"),
-	    new Active("エンシェントファイア", "Ancient Fire", "Elesis/ElesisHA02_Ancient Fire.png"),
+	    new Active("エンシェントファイア", "Ancient Fire", 91, 1, 0, "スタンのみ", "Elesis/ElesisHA02_Ancient Fire.png", "84b0DLtLjjg"),
 		]),
 	  
 	];
