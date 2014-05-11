@@ -26,7 +26,7 @@ var Elesis = function () {
 	    new Active("クリティカルダイブ", "Critical Dive", 35, 1, 0, "", "Elesis/Elesis14_Critical Dive.png", "ervG1UqVJ5A"),
 	    new Active("ジャガーノートバスター", "Juggernaut Buster", 64, 1, 0, "", "Elesis/Elesis15_Juggernaut Buster.png", "ydza8y-imjQ"),
 	    new Active("ウォープレリュード", "War Prelude", 41, 2, 0, "", "Elesis/Elesis16_War Prelude.png", "hnbSu7D9v2c"),
-	    new Active("ソードオブレリクス", "Sword of Relics", "Elesis/ElesisHA01_Sword of Relics.png"),
+	    new Active("ソードオブレリクス", "Sword of Relics", 119, 1, 0, "", "Elesis/ElesisHA01_Sword of Relics.png", "eYjtpQBQgJY"),
 		]),
 
 	  new Job("パイロナイト/ブレイジングハート", "bh", "Elesis/BlazingHeart.png", [
