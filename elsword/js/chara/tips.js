@@ -24,6 +24,8 @@ var Tips = function () {
 	    new Active("サテライトレイン", "Satellite Rain", 107, 0, 0, "", "Lacher/LacherHA03_Satellite Rain.png", "YHeyx4eQMr4"),
 	    new Active("覇気天衝－千手華", "Heaven's Rage - Thousand Blossoms", 96, 1, 0, "", "Ara/AraHA01_Thousand Blossoms.png", "huS3buJR31M"),
 	    new Active("地獄道", "Energy Cannon", 72, 0, 0, "", "Ara/AraHA02_Energy Cannon.png", "lhxKsoe1f80"),
+	    new Active("ソードオブレリクス", "Sword of Relics", 119, 1, 0, "", "Elesis/ElesisHA01_Sword of Relics.png", "eYjtpQBQgJY"),
+	    new Active("エンシェントファイア", "Ancient Fire", 91, 1, 0, "スタンのみ", "Elesis/ElesisHA02_Ancient Fire.png", "84b0DLtLjjg"),
 	  ]),
 
 	  new Job("暗転の長いスキル(HA除く)", "top2s", "", [
