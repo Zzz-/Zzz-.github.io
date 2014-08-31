@@ -10,8 +10,8 @@ var About = function () {
 
 	  new Job("更新履歴", "news", "n_sunny.png", [
 	    new Active("ステイシスフィールド", "Statis Field", 0, -1, 0, "募集中！", "Add/Add10_Statis Field.png"),
-	    new Active("クイックシルバーアクセル", "Quicksilver Accel", 0, -1, 0, "募集中！", "Add/Add13_Quicksilver Accel.png"),
 	    new Active("ダストアナトミー", "Dust Anatomy", 0, -1, 0, "募集中！", "Add/Add15_Dust Anatomy.png"),
+	    new Active("クイックシルバーアクセル", "Quicksilver Accel", 44, 2, 0, "追加コマンド無し", "Add/Add13_Quicksilver Accel.png", "m2WdSIf0tCY"),
 	    new Active("エドのデータ", "Add", 0, -1, 0, "14件更新", "Add/Add.png"),
 	    new Active("アラのデータ", "Ara", 0, -1, 0, "更新完了", "Ara/Ara.png"),
 	    new Active("アイシャのデータ", "Aisha", 0, -1, 0, "更新完了", "Aisha/Aisha.png"),
