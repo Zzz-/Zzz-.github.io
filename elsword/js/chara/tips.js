@@ -26,6 +26,7 @@ var Tips = function () {
 	    new Active("地獄道", "Energy Cannon", 72, 0, 0, "", "Ara/AraHA02_Energy Cannon.png", "lhxKsoe1f80"),
 	    new Active("ソードオブレリクス", "Sword of Relics", 119, 1, 0, "", "Elesis/ElesisHA01_Sword of Relics.png", "eYjtpQBQgJY"),
 	    new Active("エンシェントファイア", "Ancient Fire", 91, 1, 0, "スタンのみ", "Elesis/ElesisHA02_Ancient Fire.png", "84b0DLtLjjg"),
+	    new Active("ドゥームズデイ", "Dooms Day", 90, 1, 0, "", "Add/AddHA01_Dooms Day.png", "JvXDKfYW0y8"),
 	  ]),
 
 	  new Job("暗転の長いスキル(HA除く)", "top2s", "", [
@@ -57,8 +58,11 @@ var Tips = function () {
       new Active("ドゥームストライク", "Doom Strike", 241, 2, 114, "", "Lacher/LacherHA02_Doom Strike.png", "aT0w3JcJFLQ"),
       new Active("ソードフォール", "Sword Fall", 147, 2, 56, "", "Els/Els23_Sword Fall.png", "pvYM7c9yiFg"),
       new Active("サウザンドスター", "Thousand Star", 148, 2, 43, "", "Eve/Eve25_Thousand Star.png", "5XgVx5kzqnA"),
+			new Active("エナジーブーム", "Energy Boom", 89, 2, 38, "", "Add/Add04_Energy Boom.png", "-su99DXEfVQ"),
       new Active("グングニル(キャンセル)", "Gungnir_cancel", 221, 2, 35, "攻撃HIT時に発動", "Rena/Rena18_Gungnir.png", "TxjiMyuy6hI"),
       new Active("アサルトスピア－ジャッジメント", "Assault Spear – Judgement", 155, 2, 33, "", "Eve/Eve21a_Assault Spear.png", "EqDSBJx1h7k"),
+			new Active("パーティクルプリズム", "Particle Prism", 90, 2, 33, "", "Add/Add03_Particle Prism.png", "nApGWFKoGqU"),
+	    new Active("リバースリアクター", "Reverse Reactor", 89, 2, 31, "", "Add/Add12_Reverse Reactor.png", "LDzKBMakXa4"),
       new Active("タクティカルフィールド", "Tactical Field – Raid", 113, 2, 30, "", "Lacher/Lacher28a_Tactical Field.png", "y_ha9WDfkEs"),
       new Active("アトミックシールド", "Atomic Shield", 139, -1, 29, "", "Eve/Eve14_Atomic Shield.png", "GFlvouh_gsA"),
       new Active("カーペットボミング", "Carpet Bombing", 120, 0, 28, "", "Lacher/Lacher26_Carpet Bombing.png", "unE_9JilLt8"),
@@ -68,6 +72,8 @@ var Tips = function () {
       new Active("バレットブリッツ", "Bullet Blitz", 81, 1, 22, "", "Lacher/Lacher13_Bullet Blitz.png", "roNt1lF0h0s"),
       new Active("エナジェティックハート", "Energetic Heart", 132, -1, 20, "", "Eve/Eve28_Energetic Heart.png", "1877O2ju2qQ"),
       new Active("ランドデモリッシャー－ヘビーアームズ", "Land Demolisher – Heavy Arms", 125, 2, 18, "", "Lacher/Lacher21_Land Demolisher.png", "kxuQlV6nFMQ"),
+			new Active("ヴォイドブレイカー", "Void Breaker", 89, 1, 18, "", "Add/Add02_Void Breaker.png", "PN01a1vVLmI"),
+	    new Active("クエイクバスター", "Quake Buster", 90, 1, 16, "", "Add/Add09_Quake Buster.png", "ya9VxYs-HbQ"),
       new Active("エアロストレイフ", "Aero-Strafe", 96, 2, 15, "", "Rena/Rena21_Aero-Strafe.png", "YMe3OMK1j1U"),
       new Active("影つぼみ", "Shadow Rising", 77, 2, 15, "", "Ara/Ara05_Shadow Rising.png", "KoTDnAE4wdE"),
       new Active("ブラッディエクセル", "Bloody Accel", 137, 2, 14, "", "Raven/Raven18_Bloody Accel.png", "WDGVkskKwE0"),
