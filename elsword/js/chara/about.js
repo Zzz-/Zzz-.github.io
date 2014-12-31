@@ -11,9 +11,10 @@ var About = function () {
 	  new Job("更新履歴", "news", "n_sunny.png", [
 	    new Active("ステイシスフィールド", "Statis Field", 0, -1, 0, "募集中！", "Add/Add10_Statis Field.png"),
 	    new Active("ダストアナトミー", "Dust Anatomy", 0, -1, 0, "募集中！", "Add/Add15_Dust Anatomy.png"),
-	    new Active("クイックシルバーアクセル", "Quicksilver Accel", 44, 2, 0, "追加コマンド無し", "Add/Add13_Quicksilver Accel.png", "m2WdSIf0tCY"),
-	    new Active("エドのデータ", "Add", 0, -1, 0, "14件更新", "Add/Add.png"),
-	    new Active("アラのデータ", "Ara", 0, -1, 0, "更新完了", "Ara/Ara.png"),
+	    new Active("インストール－スターフォール", "Install - Starfall", 0, -1, 0, "データ待ち", "Add/Add24_Install - Starfall.png"),
+	    new Active("アポカリプス", "Apocalypse", 0, -1, 0, "データ待ち", "Add/AddHA02_Apocalypse.png"),
+	    new Active("アラのデータ", "Ara", 0, -1, 0, "全て更新完了(2014/12/31)", "Ara/Ara.png"),
+	    new Active("エドのデータ", "Add", 0, -1, 0, "MM関連を更新(2014/12/31)", "Add/Add.png"),
 	    new Active("アイシャのデータ", "Aisha", 0, -1, 0, "更新完了", "Aisha/Aisha.png"),
 	    new Active("レナのデータ", "Rena", 0, -1, 0, "更新完了", "Rena/Rena.png"),
 	    new Active("イヴのデータ", "Eve", 0, -1, 0, "更新完了", "Eve/Eve.png"),

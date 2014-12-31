@@ -26,7 +26,26 @@ var Add = function () {
 	    new Active("サイキックストーム", "Psychic Storm", 90, 1, 0, "", "Add/Add16_Psychic Storm.png", "1WGX3JiHvN8"),
 	    new Active("ドゥームズデイ", "Dooms Day", 90, 1, 0, "", "Add/AddHA01_Dooms Day.png", "JvXDKfYW0y8"),
 		]),
-	  
+
+	  new Job("アークトレーサー/マスターマインド", "mm", "Add/MasterMind.png", [
+//	new Active("name", "id", frame, hit, adframe, "tips", "Elesis/icon", "url"),
+	    new Active("インストール－ドローンアクティベーター", "Install - Drone Activator", 89, 2, 31, "", "Add/Add17_Install - Drone Activator.png", "4INoZHRlX5k"),
+	    new Active("EMPショック", "EMP Shock", 90, 2, 0, "", "Add/Add08_EMP Shock.png", "3rDRXZAziMw"),
+	    new Active("パンツァーバスター", "Panzer Buster", 89, 2, 0, "", "Add/Add18_Panzer Buster.png", "aCy4WdYpdL0"),
+	    new Active("サイオニックジェネレーター", "Psionic Generator", 118, 0, 7, "", "Add/Add19_Psionic Generator.png", "Aqt2MJl4h68"),
+	    new Active("ファントムシーカー", "Phantom Seeker", 86, 1, 0, "", "Add/Add20_Phantom Seeker.png", "TVqaWsBhz8I"),
+	    new Active("インストール－パルスガトリング", "Install - Pulse Gatling", 48, 1, 0, "", "Add/Add21_Install - Pulse Gatling.png", "byykYVB62d8"),
+	    new Active("インストール－シューティングチェイサー", "Install - Shooting Chaser", 74, 0, 11, "", "Add/Add22_Install - Shooting Chaser.png", "XbwFibx-qlc"),
+	    new Active("インストール－アルティメットフューリー", "Install - Ultimate Fury", 106, 1, 8, "", "Add/Add23_Install - Ultimate Fury.png", "mpSDYM0PrjQ"),
+	    new Active("インストール－スターフォール", "Install - Starfall", "Add/Add24_Install - Starfall.png"),
+	    new Active("アポカリプス", "Apocalypse", "Add/AddHA02_Apocalypse.png"),
+		]),
+/*
+	  new Job("タイムトレーサー", "de", "Add/TimeTracer.png", [
+//	new Active("name", "id", frame, hit, adframe, "tips", "Elesis/icon", "url"),
+	    new Active("パルスキャノン", "Pulse Cannon", 90, 1, 0, "", "Add/Add07_Pulse Cannon.png", "-ttnSkzmpd4"),
+		]),
+*/	  
 	];
 };
 

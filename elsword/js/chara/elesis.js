@@ -43,7 +43,12 @@ var Elesis = function () {
 	    new Active("ブレイジングダンス", "Blazing Dance", 59, 1, 0, "", "Elesis/Elesis26_Blazing Dance.png", "oJxTe8lGMIc"),
 	    new Active("エンシェントファイア", "Ancient Fire", 91, 1, 0, "スタンのみ", "Elesis/ElesisHA02_Ancient Fire.png", "84b0DLtLjjg"),
 		]),
-	  
+/*
+	  new Job("ダークナイト", "ca", "Elesis/DarkKnight.png", [
+//	new Active("name", "id", frame, hit, adframe, "tips", "Elesis/icon", "url"),
+	    new Active("クロススラッシュ", "Cross Slash", 29, 1, 0, "", "Elesis/Elesis08_Cross Slash.png", "smT0E1x-k90"),
+		]),
+*/	  
 	];
 };
 
