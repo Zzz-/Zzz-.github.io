@@ -46,7 +46,7 @@ var Ara = function () {
       new Active("地獄道", "Hell Blast", 60, 0, 0, "", "Ara/AraHA02_Energy Cannon.png", "wDXH-ED2Hdo"),
 	  ]),
 
-	  new Job("小妖/阿修羅", "as", "Ara/Asura.png", [
+	  new Job("小妖/修羅", "as", "Ara/Asura.png", [
 //    new Active("name", "id", frame, hit, adframe, "tips", "Ara/icon", "url"),
       new Active("鬼殺二式:鬼神縛", "Exorcism Stance 2: Specter Restraints", 34, 2, 0, "", "Ara/Ara24_Restraints Specter.png", "Bg3KEPGDg8g"),
       new Active("鬼殺四式:断鬼", "Exorcism Stance 4: Darkness Sever", 53, 2, 0, "", "Ara/Ara25_Darkness Sever.png", "wPJ9MuWRO0I"),
