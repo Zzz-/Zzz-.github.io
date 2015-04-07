@@ -37,15 +37,24 @@ var Add = function () {
 	    new Active("インストール－パルスガトリング", "Install - Pulse Gatling", 48, 1, 0, "", "Add/Add21_Install - Pulse Gatling.png", "byykYVB62d8"),
 	    new Active("インストール－シューティングチェイサー", "Install - Shooting Chaser", 74, 0, 11, "", "Add/Add22_Install - Shooting Chaser.png", "XbwFibx-qlc"),
 	    new Active("インストール－アルティメットフューリー", "Install - Ultimate Fury", 106, 1, 8, "", "Add/Add23_Install - Ultimate Fury.png", "mpSDYM0PrjQ"),
-	    new Active("インストール－スターフォール", "Install - Starfall", "Add/Add24_Install - Starfall.png"),
-	    new Active("アポカリプス", "Apocalypse", "Add/AddHA02_Apocalypse.png"),
+	    new Active("インストール－スターフォール", "Install - Starfall", 107, 0, 2, "", "Add/Add24_Install - Starfall.png", "Q36iXvEgjyM"),
+	    new Active("アポカリプス", "Apocalypse", 118, 1, 3, "", "Add/AddHA02_Apocalypse.png", "-vV47GcpI7g"),
 		]),
-/*
-	  new Job("タイムトレーサー", "de", "Add/TimeTracer.png", [
+
+	  new Job("タイムトレーサー/ディアボリックエスパー", "de", "Add/DiabolicEsper.png", [
 //	new Active("name", "id", frame, hit, adframe, "tips", "Elesis/icon", "url"),
-	    new Active("パルスキャノン", "Pulse Cannon", 90, 1, 0, "", "Add/Add07_Pulse Cannon.png", "-ttnSkzmpd4"),
+	    new Active("ヴォイドインパクト", "Void Impact", 79, 1, 0, "", "Add/Add25_Void Impact.png", "gyYYyVPXoNc"),
+	    new Active("EMPショック", "EMP Shock", 90, 2, 0, "", "Add/Add08_EMP Shock.png", "3rDRXZAziMw"),
+	    new Active("ヴォイドフィールド", "Void Field", 77, 1, 0, "", "Add/Add26_Void Field.png", "UMCnRX9ClSM"),
+	    new Active("マキシマムストライク", "Maximum Strike", 126, 2, 42, "", "Add/Add27_Maximum Strike.png", "DTkKLOlEFTA"),
+	    new Active("スターダストシャワー", "Stardust Shower", 5, 0, 0, "", "Add/Add28_Stardust Shower.png", "mFdYus-o8g0"),
+	    new Active("リバースサークル", "Reverse Circle", 59, 1, 4, "", "Add/Add29_Reverse Circle.png", "Z4vrFUyAK-A"),
+	    new Active("リバーススティグマ", "Reverse Stigma", 24, 2, 0, "", "Add/Add30_Reverse Stigma.png", "6aMG0tKkwLw"),
+	    new Active("ムーンライトラプソディー", "Moonlight Rhapsody", 54, 1, 0, "", "Add/Add31_Moonlight Rhapsody.png", "iYFC9IOV65w"),
+	    new Active("グラビティーバスター", "Gravity Buster", 78, 1, 0, "", "Add/Add32_Gravity Buster.png", "AsFH4eRK5Jg"),
+	    new Active("パラノイア", "Paranoia", 106, 1, 0, "", "Add/AddHA03_Paranoia.png", "1zNEaiA0YYk"),
 		]),
-*/	  
+
 	];
 };
 

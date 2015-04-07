@@ -43,12 +43,20 @@ var Elesis = function () {
 	    new Active("ブレイジングダンス", "Blazing Dance", 59, 1, 0, "", "Elesis/Elesis26_Blazing Dance.png", "oJxTe8lGMIc"),
 	    new Active("エンシェントファイア", "Ancient Fire", 91, 1, 0, "スタンのみ", "Elesis/ElesisHA02_Ancient Fire.png", "84b0DLtLjjg"),
 		]),
-/*
-	  new Job("ダークナイト", "ca", "Elesis/DarkKnight.png", [
+
+	  new Job("ダークナイト/クリムゾンアベンジャー", "ca", "Elesis/CrimsonAvenger.png", [
 //	new Active("name", "id", frame, hit, adframe, "tips", "Elesis/icon", "url"),
-	    new Active("クロススラッシュ", "Cross Slash", 29, 1, 0, "", "Elesis/Elesis08_Cross Slash.png", "smT0E1x-k90"),
+	    new Active("ブルータルカッター", "Brutal Cutter", 48, 1, 0, "", "Elesis/Elesis27_Brutal Cutter.png", "t0c5gUkt_xg"),
+	    new Active("イジェクションバスター", "Ejection Buster", 60, 2, 0, "チャージ開始時に暗転", "Elesis/Elesis28_Ejection Buster.png", "onOteeV5M1Y"),
+	    new Active("ブランディッシュブレイカー", "Brandish Breaker", "Elesis/Elesis29_Brandish Breaker.png"),
+	    new Active("バーニングファントム", "Burning Phantom", "Elesis/Elesis30_Burning Phantom.png"),
+	    new Active("クリムゾンストライク", "Crimson Break", "Elesis/Elesis31_Crimson Break.png"),
+	    new Active("ドレッドウェポン", "Dread Weapon", "Elesis/Elesis32_Dread Weapon.png"),
+	    new Active("シェイドイリュージョン", "Shade the Illusion", "Elesis/Elesis33_Shade the Illusion.png"),
+	    new Active("ブラッドカッター", "Blood Cutter", "Elesis/Elesis34_Blood Cutter.png"),
+	    new Active("フェイトスマッシュ", "Fate Smash", "Elesis/ElesisHA03_Fate Smash.png"),
 		]),
-*/	  
+	  
 	];
 };
 
